@@ -49,7 +49,7 @@ _Stage_: Record representing a Tour de France stage.
 **Constructors**: 
 
 - C1: Takes a parameter for every property of the Record.
-- C2: Takes a `String` _origin_, a `String` _destination_ and a `StageType` _type_ and constructs a _Stage_ with a stage number of 1, a date set to January 1st 2000, a distance of 0.0f and the rest of properties set to `null`.
+- C2: Takes a `String` _origin_, a `String` _destination_ and a `StageType` _type_ and constructs a _Stage_ with a stage number of 1, a date set to January 1st 2000, a distance of 0.0f, an empty list for the podium, and an unnamed winner with no team and default French nationality.
 
 **Restrictions**:
  
@@ -58,7 +58,7 @@ _Stage_: Record representing a Tour de France stage.
 - R3: Date must be before the current date.
 - R4: The podium must contain a maximum of 3 elements.
 
-**Equality criterion**: Two stages are equal if they took place in the same date, are of the same type and have the same winner.
+**Equality criterion**: Two stages are equal if all their base properties are equal.
 
 **Natural order criterion**: First, the dates are compared. If a stage's date foes before another's, it precedes it. If the dates are the same, the stage numbers are used.
 

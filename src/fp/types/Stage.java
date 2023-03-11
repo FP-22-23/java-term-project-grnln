@@ -6,7 +6,26 @@ import java.util.List;
 import java.util.Objects;
 
 import fp.common.Rider;
+import fp.common.RiderCountry;
 import fp.utils.Checkers;
+
+/*
+ * Stage: Record to hold Tour de France stage data.
+ * 
+ * Properties:
+ * -stageNo (Integer)
+ * -date (LocalDate)
+ * -distance (Float)
+ * -origin (String)
+ * -destination (String)
+ * -type (StageType)
+ * -podium (List<String>)
+ * -winner (Rider)
+ * 
+ * Plus 2 derived properties:
+ * -season (String)
+ * -isTimeTrial (Boolean)
+ */
 
 public record Stage(Integer stageNo, LocalDate date, Float distance, 
 					String origin, String destination, StageType type,
@@ -19,7 +38,8 @@ public record Stage(Integer stageNo, LocalDate date, Float distance,
 	}
 	
 	public Stage(String origin, String destination, StageType type) {
-		this(1, LocalDate.of(2000, 1, 1), 0.0f, origin, destination, type, null, null);
+		this(1, LocalDate.of(2000, 1, 1), 0.0f, origin, destination, type,
+			 new ArrayList<String>(), new Rider("", "", RiderCountry.FRA));
 	}
 
 	public Integer stageNo() {
@@ -54,10 +74,12 @@ public record Stage(Integer stageNo, LocalDate date, Float distance,
 		return new Rider(this.winner);
 	}
 	
+	// season: Derived property
 	public String season() {
-		return (date().getYear()-1) + "-" + date().getYear();
+		return (date().getYear() - 1) + "-" + date().getYear();
 	}
 	
+	// isTimeTrial: Derived property
 	public Boolean isTimeTrial() {
 		return (type().equals(StageType.TIME_TRIAL));
 	}
@@ -66,14 +88,18 @@ public record Stage(Integer stageNo, LocalDate date, Float distance,
 		return Objects.hash(date, destination, distance, origin, podium, stageNo, type, winner);
 	}
 
-	public boolean equals(Stage s) {
-		if (this == s)
+	public boolean equals(Object obj) {
+		if (this == obj)
 			return true;
-		if (s == null)
+		if (obj == null)
 			return false;
-		
-		return (this.date.equals(s.date()) && this.type.equals(s.type())
-				&& this.winner.equals(s.winner()));
+		if (getClass() != obj.getClass())
+			return false;
+		Stage other = (Stage) obj;
+		return Objects.equals(date, other.date) && Objects.equals(destination, other.destination)
+				&& Objects.equals(distance, other.distance) && Objects.equals(origin, other.origin)
+				&& Objects.equals(podium, other.podium) && Objects.equals(stageNo, other.stageNo) && type == other.type
+				&& Objects.equals(winner, other.winner);
 	}
 
 	public int compareTo(Stage s) {
@@ -94,6 +120,6 @@ public record Stage(Integer stageNo, LocalDate date, Float distance,
 	
 	public String toString() {
 		return "Stage [stageNo=" + stageNo + ", date=" + date + ", distance=" + distance + ", origin=" + origin
-				+ ", destination=" + destination + ", type=" + type + ", podium=" + podium + "]";
+				+ ", destination=" + destination + ", type=" + type + ", podium=" + podium + ", winner=" + winner + "]";
 	}
 }

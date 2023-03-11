@@ -2,6 +2,15 @@ package fp.common;
 
 import java.util.Objects;
 
+/*
+ * Rider: Record to hold Tour de France rider data.
+ * 
+ * Properties:
+ * -name (String)
+ * -team (String)
+ * -country (RiderCountry)
+ */
+
 public record Rider(String name, String team, RiderCountry country) {
 	public Rider(Rider rider) {
 		this(rider.name, rider.team, rider.country);
