@@ -13,7 +13,7 @@ public record Stage(Integer stageNo, LocalDate date, Float distance,
 					List<String> podium, Rider winner) implements Comparable<Stage> {
 	public Stage {
 		Checkers.check("Stage number must be greater than 0.", stageNo > 0);
-		Checkers.check("Distance must be greater or equal to 0.", distance >= 0.0f);
+		Checkers.check("Distance must be greater than or equal to 0.0f.", distance >= 0.0f);
 		Checkers.check("Date must be before current date.", date.isBefore(LocalDate.now()));
 		Checkers.check("Podium must contain a maximum of three elements.", podium.size() <= 3);
 	}
@@ -55,7 +55,7 @@ public record Stage(Integer stageNo, LocalDate date, Float distance,
 	}
 	
 	public String season() {
-		return date().getYear() + "-" + (date().getYear() - 1);
+		return (date().getYear()-1) + "-" + date().getYear();
 	}
 	
 	public Boolean isTimeTrial() {
@@ -63,22 +63,17 @@ public record Stage(Integer stageNo, LocalDate date, Float distance,
 	}
 	
 	public int hashCode() {
-		return Objects.hash(date, destination, distance, origin, podium, stageNo, type);
+		return Objects.hash(date, destination, distance, origin, podium, stageNo, type, winner);
 	}
 
-	public boolean equals(Object obj) {
-		if (this == obj)
+	public boolean equals(Stage s) {
+		if (this == s)
 			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
+		if (s == null)
 			return false;
 		
-		Stage other = (Stage) obj;
-		
-		return Objects.equals(date, other.date) && Objects.equals(destination, other.destination)
-				&& Objects.equals(distance, other.distance) && Objects.equals(origin, other.origin)
-				&& Objects.equals(podium, other.podium) && Objects.equals(stageNo, other.stageNo) && type == other.type;
+		return (this.date.equals(s.date()) && this.type.equals(s.type())
+				&& this.winner.equals(s.winner()));
 	}
 
 	public int compareTo(Stage s) {
