@@ -2,9 +2,12 @@ package fp.common;
 
 import java.util.Objects;
 
+/**
+ * Record to hold Tour de France rider data.
+ * @author Guillermo R.N.
+ */
+
 /*
- * Rider: Record to hold Tour de France rider data.
- * 
  * Properties:
  * -name (String)
  * -team (String)
