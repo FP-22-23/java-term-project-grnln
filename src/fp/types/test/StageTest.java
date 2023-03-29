@@ -10,6 +10,10 @@ import fp.types.Stage;
 import fp.types.StageType;
 
 public class StageTest {
+	/**
+	 * Shows a stage's data.
+	 * @param s The stage whose data to show.
+	 */
 	public static void showStage(Stage s) {
 		System.out.println("Stage with hashcode = " + s.hashCode());
 		
@@ -26,6 +30,18 @@ public class StageTest {
 		System.out.println("String representation:\n" + s.toString() + "\n");
 	}
 	
+	/**
+	 * First constructor test.
+	 * @param stageNo Number of the stage to be created.
+	 * @param date Date of the stage to be created.
+	 * @param distance Distance of the stage to be created.
+	 * @param origin Origin of the stage to be created.
+	 * @param destination Destination of the stage to be created.
+	 * @param type Type of the stage to be created.
+	 * @param podium Podium of the stage to be created.
+	 * @param winner Winner of the stage to be created.
+	 * @return A newly created stage.
+	 */
 	public static Stage c1Test(Integer stageNo, LocalDate date, Float distance, 
 							  String origin, String destination, StageType type,
 							  List<String> podium, Rider winner) {
@@ -44,6 +60,13 @@ public class StageTest {
 		}
 	}
 	
+	/**
+	 * Second constructor test.
+	 * @param origin Origin of the stage to be created.
+	 * @param destination Destination of the stage to be created.
+	 * @param type Type of the stage to be created.
+	 * @return A newly created stage
+	 */
 	public static Stage c2Test(String origin, String destination, StageType type) {
 		System.out.println("------------------");
 		System.out.println("Constructor 2 Test");
@@ -59,6 +82,11 @@ public class StageTest {
 		}
 	}
 	
+	/**
+	 * Natural order/equals test.
+	 * @param a A stage to be compared to b.
+	 * @param b A stage to be compared to a.
+	 */
 	public static void orderTest(Stage a, Stage b) {
 		System.out.println("------------------");
 		System.out.println("Natural order test");
@@ -79,13 +107,12 @@ public class StageTest {
 		System.out.println("Stage:" + b.toString() + "\n");
 	}
 	
+	/**
+	 * First test scenario:
+	 * -Two different constructors
+	 * -Two different objects
+	 */
 	public static void firstTest() {
-		/*
-		 * First test scenario:
-		 * -Two different constructors
-		 * -Two different objects
-		 */
-		
 		System.out.println("-------------------");
 		System.out.println("First test scenario");
 		System.out.println("-------------------");
@@ -108,13 +135,12 @@ public class StageTest {
 		System.out.println("---------------------\n");
 	}
 	
+	/**
+	 * Second test scenario:
+	 * -First constructor
+	 * -Two equal objects
+	 */
 	public static void secondTest() {
-		/*
-		 * Second test scenario:
-		 * -First constructor
-		 * -Two equal objects
-		 */
-		
 		System.out.println("--------------------");
 		System.out.println("Second test scenario");
 		System.out.println("--------------------");
@@ -138,13 +164,12 @@ public class StageTest {
 		System.out.println("----------------------\n");
 	}
 	
+	/**
+	 * Third test scenario:
+	 * -Second constructor
+	 * -Two different objects
+	 */
 	public static void thirdTest() {
-		/*
-		 * Third test scenario:
-		 * -Second constructor
-		 * -Two different objects
-		 */
-		
 		System.out.println("-------------------");
 		System.out.println("Third test scenario");
 		System.out.println("-------------------");
@@ -160,13 +185,12 @@ public class StageTest {
 		System.out.println("---------------------\n");
 	}
 	
+	/**
+	 * Third test scenario:
+	 * -Second constructor
+	 * -Two equal objects
+	 */
 	public static void fourthTest() {
-		/*
-		 * Third test scenario:
-		 * -Second constructor
-		 * -Two equal objects
-		 */
-		
 		System.out.println("--------------------");
 		System.out.println("Fourth test scenario");
 		System.out.println("--------------------");

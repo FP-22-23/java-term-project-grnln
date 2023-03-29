@@ -9,9 +9,13 @@ import fp.common.Rider;
 import fp.common.RiderCountry;
 import fp.utils.Checkers;
 
-/*
- * Stage: Record to hold Tour de France stage data.
+/**
+ * Record to hold Tour de France stage data.
  * 
+ * @author Guillermo R.N.
+ */
+
+/* 
  * Properties:
  * -stageNo (Integer)
  * -date (LocalDate)
@@ -26,10 +30,20 @@ import fp.utils.Checkers;
  * -season (String)
  * -isTimeTrial (Boolean)
  */
-
 public record Stage(Integer stageNo, LocalDate date, Float distance, 
 					String origin, String destination, StageType type,
 					List<String> podium, Rider winner) implements Comparable<Stage> {
+	/**
+	 * First constructor.
+	 * @param stageNo Number of the stage to be created.
+	 * @param date Date of the stage to be created.
+	 * @param distance Distance of the stage to be created.
+	 * @param origin Origin of the stage to be created.
+	 * @param destination Destination of the stage to be created.
+	 * @param type Type of the stage to be created.
+	 * @param podium Podium of the stage to be created.
+	 * @param winner Winner of the stage to be created.
+	 */
 	public Stage {
 		Checkers.check("Stage number must be greater than 0.", stageNo > 0);
 		Checkers.check("Distance must be greater than or equal to 0.0f.", distance >= 0.0f);
@@ -37,6 +51,12 @@ public record Stage(Integer stageNo, LocalDate date, Float distance,
 		Checkers.check("Podium must contain a maximum of three elements.", podium.size() <= 3);
 	}
 	
+	/**
+	 * Second constructor.
+	 * @param origin Origin of the stage to be created.
+	 * @param destination Destination of the stage to be created.
+	 * @param type Type of the stage to be created.
+	 */
 	public Stage(String origin, String destination, StageType type) {
 		this(1, LocalDate.of(2000, 1, 1), 0.0f, origin, destination, type,
 			 new ArrayList<String>(), new Rider("", "", RiderCountry.FRA));
@@ -74,12 +94,18 @@ public record Stage(Integer stageNo, LocalDate date, Float distance,
 		return new Rider(this.winner);
 	}
 	
-	// season: Derived property
+	/**
+	 * Derived property.
+	 * @return The season to which the stage belongs.
+	 */
 	public String season() {
 		return (date().getYear() - 1) + "-" + date().getYear();
 	}
 	
-	// isTimeTrial: Derived property
+	/**
+	 * Derived property.
+	 * @return Whether the stage was a time trial or not.
+	 */
 	public Boolean isTimeTrial() {
 		return (type().equals(StageType.TIME_TRIAL));
 	}
