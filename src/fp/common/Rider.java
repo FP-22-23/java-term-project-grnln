@@ -15,6 +15,10 @@ import java.util.Objects;
  */
 
 public record Rider(String name, String team, RiderCountry country) {
+	/**
+	 * Second constructor.
+	 * @param rider Rider whose data to copy.
+	 */
 	public Rider(Rider rider) {
 		this(rider.name, rider.team, rider.country);
 	}

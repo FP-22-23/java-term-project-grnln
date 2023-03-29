@@ -1,5 +1,9 @@
 package fp.common;
 
+/**
+ * Enum representing all Tour de France rider countries.
+ * @author Guillermo R.N.
+ */
 public enum RiderCountry {
 	GBR,
 	GER,

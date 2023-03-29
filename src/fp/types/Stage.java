@@ -121,7 +121,9 @@ public record Stage(Integer stageNo, LocalDate date, Float distance,
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
+		
 		Stage other = (Stage) obj;
+		
 		return Objects.equals(date, other.date) && Objects.equals(destination, other.destination)
 				&& Objects.equals(distance, other.distance) && Objects.equals(origin, other.origin)
 				&& Objects.equals(podium, other.podium) && Objects.equals(stageNo, other.stageNo) && type == other.type

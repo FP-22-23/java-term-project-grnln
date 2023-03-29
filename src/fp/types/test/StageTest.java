@@ -9,6 +9,10 @@ import fp.common.RiderCountry;
 import fp.types.Stage;
 import fp.types.StageType;
 
+/**
+ * Class to test the Stage datatype.
+ * @author Guillermo R.N.
+ */
 public class StageTest {
 	/**
 	 * Shows a stage's data.
