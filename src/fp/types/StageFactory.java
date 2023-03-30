@@ -20,6 +20,11 @@ import fp.utils.Checkers;
  * @author Guillermo R.N.
  */
 public class StageFactory {
+	/**
+	 * Read stages from a .csv file.
+	 * @param path File path of the .csv file.
+	 * @return A Stages object containing all stages in the file.
+	 */
 	public static Stages readStages(String path) {
 		Stages result = null;
 		
@@ -35,7 +40,12 @@ public class StageFactory {
 		
 		return result;
 	}
-		
+	
+	/**
+	 * Parse a .csv line.
+	 * @param line The line to parse.
+	 * @return A Stage object resulting from parsing the line.
+	 */
 	public static Stage parseLine(String line) {
 		String[] chunks = line.split(",");
 		Checkers.check("Number of cells per line must be equal to 10.",
@@ -63,7 +73,12 @@ public class StageFactory {
 		return result;
 	}
 	
-	public static List<String> parsePodium(String podium) {
+	/**
+	 * Parse a stage's podium from a string.
+	 * @param podium The string to parse.
+	 * @return A list of Strings containing the parsed podium.
+	 */
+	private static List<String> parsePodium(String podium) {
 		String[] chunks = podium.split("; ");
 		Checkers.check("Number of components of the podium must be equal to 3.",
 					chunks.length == 3);

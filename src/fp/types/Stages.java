@@ -1,10 +1,16 @@
 package fp.types;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 import java.util.SortedSet;
+
+import fp.common.Rider;
+import fp.utils.Checkers;
 
 /**
  * Container type for the Stage datatype.
@@ -62,6 +68,89 @@ public class Stages {
 	 */
 	public void deleteStage(Stage stage) {
 		stages.remove(stage);
+	}
+	
+	/**
+	 * Checks if there is a stage whose podium contains a certain rider ("Exists" criterion).
+	 * @param riderName The rider for whose existance to check.
+	 * @return true/false depending on whether there is a stage with a rider in the podium or not.
+	 */
+	public Boolean stageWithRiderInPodium(String riderName) {
+		Boolean result = false;
+		
+		for (Stage s: stages) {
+			if (s.podium().contains(riderName)) {
+				result = true;
+				break;
+			}
+		}
+		
+		return result;
+	}
+	
+	/**
+	 * Get the average stage distance ("Average" criterion).
+	 * @return The average of the distances.
+	 */
+	public Float averageStageDistance() {
+		Checkers.check("Stage number must be greater than 0.", stages.size() > 0);
+		Float result = 0.0f;
+	
+		for (Stage s: stages) {
+			result += s.distance();
+		}
+		
+		return result / stages.size();
+	}
+	
+	/**
+	 * Gets a list with all stages before a certain date (selection with filtering).
+	 * @param date The date used for the filtering.
+	 * @return A list containing all the stages before that date.
+	 */
+	public List<Stage> stagesBefore(LocalDate date) {
+		List<Stage> result = new ArrayList<>();
+		
+		for (Stage s: stages) {
+			if (s.date().isBefore(date)) {
+				result.add(s);
+			}
+		}
+		
+		return result;
+	}
+
+	/**
+	 * Gets a map with all stages with the same number.
+	 * @return The created map.
+	 */
+	public Map<Integer, List<Stage>> stagesByNumber() {
+		Map<Integer, List<Stage>> result = new HashMap<>();
+		
+		for (Stage s: stages) {
+			if (result.containsKey(s.stageNo())) {
+				result.get(s.stageNo()).add(s);
+			} else {
+				result.put(s.stageNo(), new ArrayList<Stage>());
+				result.get(s.stageNo()).add(s);
+			}
+		}
+		
+		return result;
+	}
+	
+	/**
+	 * Gets a map with the number of stages won by every stage winner.
+	 * @return The created map.
+	 */
+	public Map<Rider, Integer> stagesByWinner() {
+		Map<Rider, Integer> result = new HashMap<>();
+		
+		for (Stage s: stages) {
+			result.merge(s.winner(), 1, Integer::sum);
+		}
+		
+		return result;
 	}
 	
 	public boolean equals(Object obj) {
