@@ -28,9 +28,9 @@ public class Stages {
 	
 	/**
 	 * Second constructor.
-	 * @param stages Set of stages that the container will bear.
+	 * @param stages Collection of stages that the container will bear.
 	 */
-	public Stages(SortedSet<Stage> stages) {
+	public Stages(Collection<Stage> stages) {
 		this.stages = new ArrayList<Stage>(stages);
 	}
 
@@ -39,7 +39,7 @@ public class Stages {
 	}
 	
 	/**
-	 * Gets the number of stages.
+	 * Gets the number of stages (derived property).
 	 * @return Number of stages in the container.
 	 */
 	public Integer getNumberStages() {
@@ -147,7 +147,11 @@ public class Stages {
 		Map<Rider, Integer> result = new HashMap<>();
 		
 		for (Stage s: stages) {
-			result.merge(s.winner(), 1, Integer::sum);
+			if (result.containsKey(s.winner())) {
+				result.put(s.winner(), result.get(s.winner()) + 1);
+			} else {
+				result.put(s.winner(), 1);
+			}
 		}
 		
 		return result;

@@ -62,7 +62,7 @@ _Stage_: Record representing a Tour de France stage.
 
 **Natural order criterion**: First, the dates are compared. If a stage's date foes before another's, it precedes it. If the dates are the same, the stage numbers are used.
 
-**Otras operaciones**:
+**Other functionality**:
  
 -	_season_: Determines the _season_ derived property, of type `String`, which represents the sports season in which the stage took place (e.g.: "2016-2017").
 
@@ -75,3 +75,35 @@ _Stage_: Record representing a Tour de France stage.
     -  _name_: The rider's name, of type `String`.
     - _team_: The rider's team, of type `String`.
     - _country_: The rider's country, of type `RiderCountry`.
+
+### Factory - StageFactory
+Factory class to create objects of type Stages. Implemented functionality:
+
+- _Stages readStages(String path)_: Creates a Stages object whose stages have been read from a .csv file specified by the _path_ parameter.
+
+### Container type - Stages
+
+Container type for Stage type objects.
+
+**Properties**:
+
+-  _stages_, of type `List`<`Stage`>, private.
+ 
+**Constructors**: 
+
+- C1: Default constructor. Creates a Stages object with an empty stage list.
+- C2: Constructor with a parameter of type `Collection`<`Stage`>. Creates a Stages object with the stages in the collection.
+
+**Equality criterion**: Two Stages objects are equals if their stage lists are equals.
+
+**Other functionality**:
+
+- _Integer getNumberStages()_: Gets the number of stages in the stage list (derived property).
+- _void addStage(Stage stage)_: Adds a stage to the stage list.
+- _void addStages(Collection<Stage> stages)_: Adds all stages from a collection of stages to the stage list.
+- _void deleteStage(Stage stage)_: Deletes the specified stage from the stage list.
+- _Boolean stageWithRiderInPodium(String riderName)_: Returns true if there is at least one stage with a specified rider in its podium (`Exist` criterion).
+- _Float averageStageDistance()_: Gets the average stage distance (`Average` criterion).
+- _List<Stage> stagesBefore(LocalDate date)_: Gets a list with all stages that took place before a specified date (`Selection with filtering`).
+- _Map<Integer, List\<Stage>\> stagesByNumber()_: Gets a map with the stage numbers as keys and lists containing all the stages with that number as values.
+- _Map<Rider, Integer> stagesByWinner_: Gets a map with riders as keys and the number of stages they won as values.

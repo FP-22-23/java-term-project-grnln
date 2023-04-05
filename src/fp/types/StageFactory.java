@@ -32,7 +32,7 @@ public class StageFactory {
 			Stream<Stage> stages = Files.lines(Paths.get(path))
 									.skip(1)
 									.map(StageFactory::parseLine);
-			result = new Stages(new TreeSet<Stage>(stages.collect(Collectors.toList())));
+			result = new Stages(stages.collect(Collectors.toList()));
 		} catch (IOException e) {
 			System.out.println("Error reading .csv file.");
 			e.printStackTrace();
@@ -46,7 +46,7 @@ public class StageFactory {
 	 * @param line The line to parse.
 	 * @return A Stage object resulting from parsing the line.
 	 */
-	public static Stage parseLine(String line) {
+	private static Stage parseLine(String line) {
 		String[] chunks = line.split(",");
 		Checkers.check("Number of cells per line must be equal to 10.",
 					chunks.length == 10);

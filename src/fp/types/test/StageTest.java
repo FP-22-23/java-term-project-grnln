@@ -211,9 +211,15 @@ public class StageTest {
 	}
 	
 	public static void main(String[] args) {
+		System.out.println("----------");
+		System.out.println("Stage Test");
+		System.out.println("----------\n");
+		
 		firstTest();
 		secondTest();
 		thirdTest();
 		fourthTest();
+		
+		System.out.println("End of the Stage test.");
 	}
 }
