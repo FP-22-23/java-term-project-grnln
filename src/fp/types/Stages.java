@@ -3,11 +3,16 @@ package fp.types;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.Set;
+import java.util.SortedMap;
 import java.util.SortedSet;
+import java.util.TreeMap;
+import java.util.stream.Collectors;
 
 import fp.common.Rider;
 import fp.utils.Checkers;
@@ -155,6 +160,136 @@ public class Stages {
 		}
 		
 		return result;
+	}
+	
+	/**
+	 * Checks if there is a stage whose podium contains a certain rider using a Stream ("Exists" criterion).
+	 * @param riderName The rider for whose existance to check.
+	 * @return true/false depending on whether there is a stage with a rider in the podium or not.
+	 */
+	public Boolean stageWithRiderInPodiumStream(String riderName) {
+		return stages.stream()
+				.anyMatch(stage->stage.podium().contains(riderName));
+	}
+	
+	/**
+	 * Get the average stage distance using a stream ("Average" criterion).
+	 * @return The average of the distances.
+	 */
+	public Double averageStageDistanceStream() {
+		return stages.stream()
+				.mapToDouble(stage->stage.distance())
+				.average()
+				.orElse(0.0);
+	}
+	
+	/**
+	 * Gets a list with all stages before a certain date using a stream (selection with filtering).
+	 * @param date The date used for the filtering.
+	 * @return A list containing all the stages before that date.
+	 */
+	public List<Stage> stagesBeforeStream(LocalDate date) {
+		return stages.stream()
+				.filter(stage->stage.date().isBefore(date))
+				.toList();
+	}
+	
+	/**
+	 * Gets the longest stage a rider has ever won (maximum with filtering).
+	 * @param rider The rider used for the filtering.
+	 * @return The longest stage with said rider as its winner.
+	 */
+	public Stage longestStageWon(Rider rider) {
+		return stages.stream()
+				.filter(stage->stage.winner().name().equals(rider.name()))
+				.max(Comparator.comparing(stage->stage.distance()))
+				.orElse(null);
+	}
+	
+	/**
+	 * Gets a list of stages with the same type, sorted by distance
+	 * (selection with filtering and sorting).
+	 * 
+	 * @param type The stage type used for the filtering.
+	 * @return The list of stages of that type, sorted by distance.
+	 */
+	public List<Stage> stagesByDistanceOfType(StageType type) {
+		return stages.stream()
+				.filter(stage->stage.type() == type)
+				.sorted(Comparator.comparing(stage->stage.distance()))
+				.toList();
+	}
+	
+	/**
+	 * Gets a map with the number of stages won by every stage winner using a stream.
+	 * @return The created map.
+	 */
+	public Map<Rider, Long> stagesByWinnerStream() {
+		return stages.stream()
+				.collect(Collectors.groupingBy(stage->stage.winner(), Collectors.counting()));
+	}
+	
+	/**
+	 * Gets a map associating each stage type to a set of all the names of the riders who won
+	 * stages of that type.
+	 * @return The created map.
+	 */
+	public Map<StageType, Set<String>> winnersByType() {
+		return stages.stream()
+				.collect(Collectors.groupingBy(
+						stage->stage.type(),
+						Collectors.mapping(stage->stage.winner().name(), Collectors.toSet())));
+	}
+	
+	/**
+	 * Gets a map associating every stage winner to the earliest stage they took part in.
+	 * @return The created map.
+	 */
+	public Map<Rider, Stage> firstStageByRider() {
+		return stages.stream()
+				.collect(Collectors.groupingBy(
+						stage->stage.winner(),
+						Collectors.collectingAndThen(
+								Collectors.minBy(Comparator.comparing(stage->stage.date())),
+								x->x.orElse(null))));
+	}
+	
+	/**
+	 * Gets a SortedMap with the n longest stages every stage winner has won.
+	 * @param n Number of stages to associate to each winner.
+	 * @return The created SortedMap.
+	 */
+	public SortedMap<Rider, List<Float>> longestStagesByWinner(Integer n) {
+		SortedMap<Rider, List<Float>>map = stages.stream()
+				.collect(Collectors.groupingBy(
+						stage->stage.winner(),
+						TreeMap::new,
+						Collectors.mapping(stage->stage.distance(), Collectors.toList())));
+		
+		map.entrySet().stream()
+			.forEach(entry->entry.getValue().stream()
+					.sorted(Comparator.reverseOrder())
+					.limit(n)
+					.toList());
+		
+		return map;
+	}
+	
+	/**
+	 * Creates a map with all stage winners and their number of wins
+	 * and gets the one with the greatest number of wins.
+	 * @return The key of the map with its largest value of wins.
+	 */
+	public Rider riderWithMostWins() {
+		Map<Rider, Long> map = stages.stream()
+				.collect(Collectors.groupingBy(
+						stage->stage.winner(),
+						Collectors.counting()));
+		
+		return map.entrySet().stream()
+				.collect(Collectors.maxBy(Comparator.comparing(entry->entry.getValue())))
+				.orElse(null)
+				.getKey();
 	}
 	
 	public boolean equals(Object obj) {
