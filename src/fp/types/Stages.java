@@ -196,12 +196,12 @@ public class Stages {
 	
 	/**
 	 * Gets the longest stage a rider has ever won (maximum with filtering).
-	 * @param rider The rider used for the filtering.
+	 * @param riderName The name of the rider used for the filtering.
 	 * @return The longest stage with said rider as its winner.
 	 */
-	public Stage longestStageWon(Rider rider) {
+	public Stage longestStageWon(String riderName) {
 		return stages.stream()
-				.filter(stage->stage.winner().name().equals(rider.name()))
+				.filter(stage->stage.winner().name().equals(riderName))
 				.max(Comparator.comparing(stage->stage.distance()))
 				.orElse(null);
 	}
@@ -242,7 +242,7 @@ public class Stages {
 	}
 	
 	/**
-	 * Gets a map associating every stage winner to the earliest stage they took part in.
+	 * Gets a map associating every stage winner to the earliest stage they won.
 	 * @return The created map.
 	 */
 	public Map<Rider, Stage> firstStageByRider() {
@@ -259,20 +259,17 @@ public class Stages {
 	 * @param n Number of stages to associate to each winner.
 	 * @return The created SortedMap.
 	 */
-	public SortedMap<Rider, List<Float>> longestStagesByWinner(Integer n) {
-		SortedMap<Rider, List<Float>>map = stages.stream()
+	public SortedMap<String, List<Stage>> longestStagesByWinner(Integer n) {
+		return stages.stream()
 				.collect(Collectors.groupingBy(
-						stage->stage.winner(),
+						stage->stage.winner().name(),
 						TreeMap::new,
-						Collectors.mapping(stage->stage.distance(), Collectors.toList())));
-		
-		map.entrySet().stream()
-			.forEach(entry->entry.getValue().stream()
-					.sorted(Comparator.reverseOrder())
-					.limit(n)
-					.toList());
-		
-		return map;
+						Collectors.collectingAndThen(
+								Collectors.toList(),
+								list->list.stream()
+								.sorted(Comparator.comparing(Stage::distance).reversed())
+								.limit(n)
+								.toList())));
 	}
 	
 	/**

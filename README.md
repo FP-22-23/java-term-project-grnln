@@ -106,4 +106,14 @@ Container type for Stage type objects.
 - _Float averageStageDistance()_: Gets the average stage distance (`Average` criterion).
 - _List<Stage> stagesBefore(LocalDate date)_: Gets a list with all stages that took place before a specified date (`Selection with filtering`).
 - _Map<Integer, List\<Stage>\> stagesByNumber()_: Gets a map with the stage numbers as keys and lists containing all the stages with that number as values.
-- _Map<Rider, Integer> stagesByWinner_: Gets a map with riders as keys and the number of stages they won as values.
+- _Map<Rider, Integer> stagesByWinner()_: Gets a map with riders as keys and the number of stages they won as values.`
+- public _Boolean stageWithRiderInPodiumStream(String riderName)_: Returns true if there is at least one stage with a specified rider in its podium using a stream (`Exist` criterion).
+- public _Double averageStageDistanceStream()_: Gets the average stage distance using a stream (`Average` criterion).
+- public _List<Stage> stagesBeforeStream(LocalDate date)_: Gets a list with all stages that took place before a specified date using a stream (`Selection with filtering`).
+- public _Stage longestStageWon(String riderName)_: Gets the longest stage won by the rider with name _riderName_.
+- public _List<Stage> stagesByDistanceOfType(StageType type)_: Gets a list with all stages of type _type_, sorted by distance.
+- public _Map<Rider, Long> stagesByWinnerStream()_: Gets a map associating every stage winner to the number of stages they won using a stream.
+- public _Map<StageType, Set\<String>\> winnersByType()_: Gets a map associating every stage type to a list of the names of the riders that won stages of that type.
+- public _Map<Rider, Stage> firstStageByRider()_: Gets a map associating every stage winner to the earliest stage they won.
+- public _SortedMap<String, List\<Float>\> longestStagesByWinner(Integer n)_: Gets a SortedMap with the n longest stages every stage winner has won.
+- public _Rider riderWithMostWins()_: Creates a map with all stage winners and their number of wins and gets the one with the greatest number of wins.

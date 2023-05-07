@@ -1,6 +1,7 @@
 package fp.types.test;
 
 import java.time.LocalDate;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.SortedSet;
@@ -211,6 +212,171 @@ public class StagesTest {
 							+ "\n");
 	}
 	
+	/**
+	 * Tests the stageWithRiderInPodiumStream method.
+	 * @param stages The container to analyze.
+	 */
+	public static void existsStreamTest(Stages stages) {
+		System.out.println("--------------------");
+		System.out.println("'Exists' Stream Test");
+		System.out.println("--------------------\n");
+		
+		System.out.println("Does there exist a stage with Tom Steels in the podium? "
+							+ stages.stageWithRiderInPodiumStream("Tom Steels"));
+		
+		System.out.println("Does there exist a stage with John Doe in the podium? "
+							+ stages.stageWithRiderInPodiumStream("John Doe") + "\n");
+	}
+	
+	/**
+	 * Tests the averageStageDistanceStream method.
+	 * @param stages The container to analyze.
+	 */
+	public static void averageStreamTest(Stages stages) {
+		System.out.println("---------------------");
+		System.out.println("'Average' Stream Test");
+		System.out.println("---------------------\n");
+		
+		System.out.println("Average stage distance: "
+							+ stages.averageStageDistanceStream() + "\n");
+	}
+	
+	/**
+	 * Tests the stagesBeforeStream method.
+	 * @param stages The container to analyze.
+	 */
+	public static void filterStreamTest(Stages stages) {
+		System.out.println("---------------------");
+		System.out.println("Filtering Stream Test");
+		System.out.println("---------------------\n");
+		
+		System.out.println("Stages before 17/3/2001: "
+							+ stages.stagesBeforeStream(LocalDate.of(2001, 3, 17))
+							+ "\n");
+		
+		System.out.println("Stages before 2/7/2000: "
+							+ stages.stagesBeforeStream(LocalDate.of(2000, 7, 2))
+							+ "\n");
+		
+		System.out.println("Stages before 1/7/2000: "
+							+ stages.stagesBeforeStream(LocalDate.of(2000, 7, 1))
+							+ "\n");
+	}
+	
+	/**
+	 * Tests the longestStageWon method.
+	 * @param stages The container to analyze.
+	 */
+	public static void maxFilterTest(Stages stages) {
+		System.out.println("---------------------------");
+		System.out.println("Maximum with filtering Test");
+		System.out.println("---------------------------\n");
+		
+		System.out.println("Longest stage won by Tom Steels: "
+							+ stages.longestStageWon("Tom Steels")
+							+ "\n");
+		
+		System.out.println("Longest stage won by John Doe: "
+							+ stages.longestStageWon("John Doe")
+							+ "\n");
+	}
+	
+	/**
+	 * Tests the stagesByDistanceOfType method.
+	 * @param stages The container to analyze.
+	 */
+	public static void sortFilterTest(Stages stages) {
+		System.out.println("-----------------------------------------");
+		System.out.println("Selection with sorting and filtering Test");
+		System.out.println("-----------------------------------------\n");
+		
+		System.out.println("Stages by distance of type: FLAT"
+							+ stages.stagesByDistanceOfType(StageType.FLAT)
+							+ "\n");
+		
+		System.out.println("Stages by distance of type: MOUNTAIN"
+				+ stages.stagesByDistanceOfType(StageType.MOUNTAIN)
+				+ "\n");
+		
+		System.out.println("Stages by distance of type: TIME_TRIAL"
+				+ stages.stagesByDistanceOfType(StageType.TIME_TRIAL)
+				+ "\n");
+	}
+	
+	/**
+	 * Tests the stagesByWinnerStream method.
+	 * @param stages The container to analyze.
+	 */
+	public static void stagesByWinnerStreamTest(Stages stages) {
+		System.out.println("----------------------------");
+		System.out.println("Stages By Winner Stream Test");
+		System.out.println("----------------------------\n");
+		
+		System.out.println("Stages (by Winner): "
+							+ stages.stagesByWinnerStream()
+							+ "\n");
+	}
+	
+	/**
+	 * Tests the winnersByType method.
+	 * @param stages The container to analyze.
+	 */
+	public static void winnersByTypeTest(Stages stages) {
+		System.out.println("--------------------");
+		System.out.println("Winners By Type Test");
+		System.out.println("--------------------\n");
+		
+		System.out.println("Winners by type: "
+							+ stages.winnersByType()
+							+ "\n");
+	}
+	
+	/**
+	 * Tests the firstStageByRider method.
+	 * @param stages The container to analyze.
+	 */
+	public static void firstStageByRiderTest(Stages stages) {
+		System.out.println("-------------------------");
+		System.out.println("First Stage By Rider Test");
+		System.out.println("-------------------------\n");
+		
+		System.out.println("First stage by rider: "
+							+ stages.firstStageByRider()
+							+ "\n");
+	}
+	
+	/**
+	 * Tests the longestStagesByWinner method.
+	 * @param stages The container to analyze.
+	 */
+	public static void longestStagesByWinnerTest(Stages stages) {
+		System.out.println("-----------------------------");
+		System.out.println("Longest Stages By Winner Test");
+		System.out.println("-----------------------------\n");
+		
+		System.out.println("Longest 5 stages by winner: "
+							+ stages.longestStagesByWinner(5)
+							+ "\n");
+		
+		System.out.println("Longest 2 stages by winner: "
+							+ stages.longestStagesByWinner(2)
+							+ "\n");
+	}
+	
+	/**
+	 * Tests the riderWithMostWins method.
+	 * @param stages The container to analyze.
+	 */
+	public static void riderWithMostWinsTest(Stages stages) {
+		System.out.println("-------------------------");
+		System.out.println("Rider With Most Wins Test");
+		System.out.println("-------------------------\n");
+		
+		System.out.println("Rider with most wins: "
+							+ stages.riderWithMostWins()
+							+ "\n");
+	}
+	
 	public static void main(String[] args) {
 		System.out.println("-----------");
 		System.out.println("Stages Test");
@@ -218,14 +384,31 @@ public class StagesTest {
 		
 		Stages stages1 = c1Test();
 		Stages stages2 = c2Test();
+		Stages stages3 = StageFactory.readStages("data/stages_TDF.csv");
 		
+		// Second delivery tests
 		addDelTest(stages1);
 		equalityTest(stages2);
-		existsTest(stages2);
-		averageTest(stages2);
-		filterTest(stages2);
-		stagesByNumberTest(stages2);
-		stagesByWinnerTest(stages2);
+		
+		existsTest(stages3);
+		averageTest(stages3);
+		filterTest(stages3);
+		stagesByNumberTest(stages3);
+		stagesByWinnerTest(stages3);
+		
+		// Third delivery tests - Block 1
+		existsStreamTest(stages3);
+		averageStreamTest(stages3);
+		filterStreamTest(stages3);
+		maxFilterTest(stages3);
+		sortFilterTest(stages3);
+		
+		// Third delivery tests - Block 2
+		stagesByWinnerStreamTest(stages3);
+		winnersByTypeTest(stages3);
+		firstStageByRiderTest(stages3);
+		longestStagesByWinnerTest(stages3);
+		riderWithMostWinsTest(stages3);
 		
 		System.out.println("End of the Stages test.");
 	}
