@@ -169,7 +169,7 @@ public class StageTest {
 	}
 	
 	/**
-	 * Third test scenario:
+	 * Fourth test scenario:
 	 * -Second constructor
 	 * -Two different objects
 	 */
