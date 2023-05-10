@@ -80,6 +80,7 @@ _Stage_: Record representing a Tour de France stage.
 Factory class to create objects of type Stages. Implemented functionality:
 
 - _Stages readStages(String path)_: Creates a Stages object whose stages have been read from a .csv file specified by the _path_ parameter.
+- _Stages readStagesToStream(String path)_: Creates a Stages object whose stages have been read from a .csv file specified by the _path_ parameter, using a stream and the third constructor in Stages.
 
 ### Container type - Stages
 
@@ -93,6 +94,7 @@ Container type for Stage type objects.
 
 - C1: Default constructor. Creates a Stages object with an empty stage list.
 - C2: Constructor with a parameter of type `Collection`<`Stage`>. Creates a Stages object with the stages in the collection.
+- C3: Constructor with a parameter of type `Stream `<`Stage`>. Creates a Stages object with the stages in the stream.
 
 **Equality criterion**: Two Stages objects are equals if their stage lists are equals.
 
