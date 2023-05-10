@@ -213,6 +213,32 @@ public class StagesTest {
 	}
 	
 	/**
+	 * Tests the third constructor.
+	 * @return The newly created container.
+	 */
+	public static Stages c3Test() {
+		System.out.println("----------------------");
+		System.out.println("Third Constructor Test");
+		System.out.println("----------------------\n");
+		
+		SortedSet<Stage> ss = buildStageSet();
+		Stages stages = new Stages(ss.stream());
+		Checkers.check("List of stages should not be empty when using third constructor.",
+						!stages.getStages().isEmpty());
+		
+		System.out.println(stages);
+		
+		for (Stage s: stages.getStages())
+			System.out.println("Is stages["
+								+ stages.getStages().indexOf(s)
+								+ "] contained in the set? "
+								+ ss.contains(s));
+		
+		System.out.println("");
+		return stages;
+	}
+	
+	/**
 	 * Tests the stageWithRiderInPodiumStream method.
 	 * @param stages The container to analyze.
 	 */
@@ -384,31 +410,32 @@ public class StagesTest {
 		
 		Stages stages1 = c1Test();
 		Stages stages2 = c2Test();
-		Stages stages3 = StageFactory.readStages("data/stages_TDF.csv");
+		Stages stages3 = c3Test();
+		Stages stages4 = StageFactory.readStages("data/stages_TDF.csv");
 		
 		// Second delivery tests
 		addDelTest(stages1);
 		equalityTest(stages2);
 		
-		existsTest(stages3);
-		averageTest(stages3);
-		filterTest(stages3);
-		stagesByNumberTest(stages3);
-		stagesByWinnerTest(stages3);
+		existsTest(stages4);
+		averageTest(stages4);
+		filterTest(stages4);
+		stagesByNumberTest(stages4);
+		stagesByWinnerTest(stages4);
 		
 		// Third delivery tests - Block 1
-		existsStreamTest(stages3);
-		averageStreamTest(stages3);
-		filterStreamTest(stages3);
-		maxFilterTest(stages3);
-		sortFilterTest(stages3);
+		existsStreamTest(stages4);
+		averageStreamTest(stages4);
+		filterStreamTest(stages4);
+		maxFilterTest(stages4);
+		sortFilterTest(stages4);
 		
 		// Third delivery tests - Block 2
-		stagesByWinnerStreamTest(stages3);
-		winnersByTypeTest(stages3);
-		firstStageByRiderTest(stages3);
-		longestStagesByWinnerTest(stages3);
-		riderWithMostWinsTest(stages3);
+		stagesByWinnerStreamTest(stages4);
+		winnersByTypeTest(stages4);
+		firstStageByRiderTest(stages4);
+		longestStagesByWinnerTest(stages4);
+		riderWithMostWinsTest(stages4);
 		
 		System.out.println("End of the Stages test.");
 	}

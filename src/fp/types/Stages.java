@@ -13,6 +13,7 @@ import java.util.SortedMap;
 import java.util.SortedSet;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import fp.common.Rider;
 import fp.utils.Checkers;
@@ -37,6 +38,14 @@ public class Stages {
 	 */
 	public Stages(Collection<Stage> stages) {
 		this.stages = new ArrayList<Stage>(stages);
+	}
+	
+	/**
+	 * Third constructor.
+	 * @param stages Stream of stages that the container will bear.
+	 */
+	public Stages(Stream<Stage> stages) {
+		this.stages = stages.collect(Collectors.toList());
 	}
 
 	public List<Stage> getStages() {

@@ -42,6 +42,27 @@ public class StageFactory {
 	}
 	
 	/**
+	 * Read stages from a .csv file as a stream.
+	 * @param path File path of the .csv file.
+	 * @return A Stages object containing all stages in the file.
+	 */
+	public static Stages readStagesToStream(String path) {
+		Stages result = null;
+		
+		try {
+			Stream<Stage> stages = Files.lines(Paths.get(path))
+									.skip(1)
+									.map(StageFactory::parseLine);
+			result = new Stages(stages);
+		} catch (IOException e) {
+			System.out.println("Error reading .csv file.");
+			e.printStackTrace();
+		}
+		
+		return result;
+	}
+	
+	/**
 	 * Parse a .csv line.
 	 * @param line The line to parse.
 	 * @return A Stage object resulting from parsing the line.
