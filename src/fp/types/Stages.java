@@ -49,7 +49,7 @@ public class Stages {
 	}
 
 	public List<Stage> getStages() {
-		return this.stages;
+		return new ArrayList<Stage>(stages);
 	}
 	
 	/**
