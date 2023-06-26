@@ -1,0 +1,379 @@
+StageNo,Date,Distance,Origin,Destination,Type,WinnerName,WinnerTeam,WinnerCountry,Podium
+1,2017-07-01,14.0,Düsseldorf,Düsseldorf,TIME_TRIAL,Geraint Thomas,Sky,GBR,Geraint Thomas; Marcel Kittel; Peter Sagan
+2,2017-07-02,203.5,Düsseldorf,Liège,FLAT,Marcel Kittel,Etixx-Quick-Step,GER,Marcel Kittel; Peter Sagan; Arnaud Démare
+3,2017-07-03,212.5,Verviers,Longwy,MOUNTAIN,Peter Sagan,Bora-Hansgohe,SVK,Peter Sagan; Arnaud Démare; Fabio Aru
+4,2017-07-04,207.5,Mondorf-les-Bains,Vittel,FLAT,Arnaud Démare,Groupama-FDJ,FRA,Arnaud Démare; Fabio Aru; Marcel Kittel
+5,2017-07-05,160.5,Vittel,La Planche des Belles Filles,MOUNTAIN,Fabio Aru,Astana,ITA,Fabio Aru; Marcel Kittel; Geraint Thomas
+6,2017-07-06,216.0,Vesoul,Troyes,FLAT,Marcel Kittel,Etixx-Quick-Step,GER,Marcel Kittel; Peter Sagan; Lilian Calmejane
+7,2017-07-07,213.5,Troyes,Nuits-Saint-Georges,FLAT,Marcel Kittel,Etixx-Quick-Step,GER,Marcel Kittel; Lilian Calmejane; Rigoberto Urán
+8,2017-07-08,187.5,Dole,Station des Rousses,MOUNTAIN,Lilian Calmejane,Intermarché-Circus-Wanty,FRA,Lilian Calmejane; Rigoberto Urán; Marcel Kittel
+9,2017-07-09,181.5,Nantua,Chambéry,MOUNTAIN,Rigoberto Urán,Cannondale-Drapac,COL,Rigoberto Urán; Marcel Kittel; Peter Sagan
+10,2017-07-11,178.0,Périgueux,Bergerac,FLAT,Marcel Kittel,Etixx-Quick-Step,GER,Marcel Kittel; Lilian Calmejane; Romain Bardet
+11,2017-07-12,203.5,Eymet,Pau,FLAT,Marcel Kittel,Etixx-Quick-Step,GER,Marcel Kittel; Romain Bardet; Warren Barguil
+12,2017-07-13,214.5,Pau,Peyragudes,MOUNTAIN,Romain Bardet,Team DSM,FRA,Romain Bardet; Warren Barguil; Michael Matthews
+13,2017-07-14,101.0,Saint-Girons,Foix,MOUNTAIN,Warren Barguil,Arkéa-Samsic,FRA,Warren Barguil; Michael Matthews; Bauke Mollema
+14,2017-07-15,181.5,Blagnac,Rodez,MOUNTAIN,Michael Matthews,Team Sunweb,AUS,Michael Matthews; Bauke Mollema; Warren Barguil
+15,2017-07-16,189.5,Laissac-Sévérac-l'Église,Le Puy-en-Velay,MOUNTAIN,Bauke Mollema,Trek-Segafredo,NED,Bauke Mollema; Michael Matthews; Primož Roglič
+16,2017-07-18,165.0,Le Puy-en-Velay,Romans-sur-Isère,MOUNTAIN,Michael Matthews,Team Sunweb,AUS,Michael Matthews; Primož Roglič; Warren Barguil
+17,2017-07-19,183.0,La Mure,Serre Chevalier,MOUNTAIN,Primož Roglič,Jumbo-Visma,SLO,Primož Roglič; Warren Barguil; Edvald Boasson Hagen
+18,2017-07-20,179.5,Briançon,Col d'Izoard,MOUNTAIN,Warren Barguil,Arkéa-Samsic,FRA,Warren Barguil; Edvald Boasson Hagen; Maciej Bodnar
+19,2017-07-21,222.5,Embrun,Salon-de-Provence,FLAT,Edvald Boasson Hagen,TotalEnergies,NOR,Edvald Boasson Hagen; Maciej Bodnar; Dylan Groenewegen
+20,2017-07-22,22.5,Marseille,Marseille,TIME_TRIAL,Maciej Bodnar,Bora-Hansgohe,POL,Maciej Bodnar; Dylan Groenewegen; Mark Cavendish
+21,2017-07-23,103.0,Montgeron,Paris,FLAT,Dylan Groenewegen,Jumbo-Visma,NED,Dylan Groenewegen; Mark Cavendish; Peter Sagan
+1,2016-07-02,188.0,Mont Saint-Michel,Utah Beach,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Peter Sagan; Marcel Kittel
+2,2016-07-03,183.0,Saint-Lô,Cherbourg-en-Cotentin,FLAT,Peter Sagan,Tinkoff,SVK,Peter Sagan; Mark Cavendish; Marcel Kittel
+3,2016-07-04,223.5,Granville,Angers,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Marcel Kittel; Greg Van Avermaet
+4,2016-07-05,237.5,Saumur,Limoges,FLAT,Marcel Kittel,Etixx-Quick-Step,GER,Marcel Kittel; Greg Van Avermaet; Mark Cavendish
+5,2016-07-06,216.0,Limoges,Le Lioran,MOUNTAIN,Greg Van Avermaet,BMC Racing Team,BEL,Greg Van Avermaet; Mark Cavendish; Steve Cummings
+6,2016-07-07,190.5,Arpajon-sur-Cère,Montauban,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Steve Cummings; Chris Froome
+7,2016-07-08,162.5,L'Isle-Jourdain,Lac de Payolle,MOUNTAIN,Steve Cummings,Team GB,GBR,Steve Cummings; Chris Froome; Tom Dumoulin
+8,2016-07-09,184.0,Pau,Bagnères-de-Luchon,MOUNTAIN,Chris Froome,Sky,GBR,Chris Froome; Tom Dumoulin; Michael Matthews
+9,2016-07-10,184.5,Vielha Val d'Aran,Andorra-Arcalis,MOUNTAIN,Tom Dumoulin,Jumbo-Visma,NED,Tom Dumoulin; Michael Matthews; Peter Sagan
+10,2016-07-12,197.0,Escaldes-Engordany,Revel,MOUNTAIN,Michael Matthews,Team Sunweb,AUS,Michael Matthews; Peter Sagan; Thomas De Gendt
+11,2016-07-13,162.5,Carcassonne,Montpellier,FLAT,Peter Sagan,Tinkoff,SVK,Peter Sagan; Thomas De Gendt; Tom Dumoulin
+12,2016-07-14,178.0,Montpellier,Chalet Reynard,MOUNTAIN,Thomas De Gendt,Lotto Dstny,BEL,Thomas De Gendt; Tom Dumoulin; Mark Cavendish
+13,2016-07-15,37.5,Bourg-Saint-Andéol,La Caverne du Pont-d'Arc,TIME_TRIAL,Tom Dumoulin,Jumbo-Visma,NED,Tom Dumoulin; Mark Cavendish; Jarlinson Pantano
+14,2016-07-16,208.5,Montélimar,Villars-les-Dombes,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Jarlinson Pantano; Peter Sagan
+15,2016-07-17,160.0,Bourg-en-Bresse,Culoz,MOUNTAIN,Jarlinson Pantano,Lotto Dstny,COL,Jarlinson Pantano; Peter Sagan; Ilnur Zakarin
+16,2016-07-18,209.0,Moirans-en-Montagne,Bern,FLAT,Peter Sagan,Tinkoff,SVK,Peter Sagan; Ilnur Zakarin; Chris Froome
+17,2016-07-20,184.5,Bern,Finhaut-Émosson,MOUNTAIN,Ilnur Zakarin,Jumbo-Visma,RUS,Ilnur Zakarin; Chris Froome; Romain Bardet
+18,2016-07-21,17.0,Sallanches,Megève,TIME_TRIAL,Chris Froome,Sky,GBR,Chris Froome; Romain Bardet; Ion Izagirre
+19,2016-07-22,146.0,Albertville,Saint Gervais-les-Bains,MOUNTAIN,Romain Bardet,Lotto Dstny,FRA,Romain Bardet; Ion Izagirre; André Greipel
+20,2016-07-23,146.5,Megève,Morzine,MOUNTAIN,Ion Izagirre,Lotto Dstny,ESP,Ion Izagirre; André Greipel; Rohan Dennis
+21,2016-07-24,113.0,Chantilly,Paris,FLAT,André Greipel,Tinkoff,GER,André Greipel; Rohan Dennis; Joaquim Rodríguez
+1,2015-07-04,13.8,Utrecht,Utrecht,TIME_TRIAL,Rohan Dennis,Sky,AUS,Rohan Dennis; André Greipel; Joaquim Rodríguez
+2,2015-07-05,166.0,Utrecht,Zeeland,FLAT,André Greipel,Jumbo-Visma,GER,André Greipel; Joaquim Rodríguez; Tony Martin
+3,2015-07-06,159.5,Antwerp,Huy,FLAT,Joaquim Rodríguez,Tinkoff,ESP,Joaquim Rodríguez; Tony Martin; André Greipel
+4,2015-07-07,223.5,Seraing,Cambrai,MOUNTAIN,Tony Martin,Sky,GER,Tony Martin; André Greipel; Zdeněk Štybar
+5,2015-07-08,189.5,Arras,Amiens,FLAT,André Greipel,Tinkoff,GER,André Greipel; Zdeněk Štybar; Mark Cavendish
+6,2015-07-09,191.5,Abbeville,Le Havre,FLAT,Zdeněk Štybar,Jumbo-Visma,CZE,Zdeněk Štybar; Mark Cavendish; Alexis Vuillermoz
+7,2015-07-10,190.5,Livarot,Fougères,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Alexis Vuillermoz; Greg Van Avermaet
+8,2015-07-11,181.5,Rennes,Mûr-de-Bretagne,FLAT,Alexis Vuillermoz,Tinkoff,FRA,Alexis Vuillermoz; Greg Van Avermaet; Chris Froome
+9,2015-07-12,28.0,Vannes,Plumelec,TIME_TRIAL,Greg Van Avermaet,BMC Racing Team,BEL,Greg Van Avermaet; Chris Froome; Rafał Majka
+10,2015-07-14,167.0,Tarbes,La Pierre Saint-Martin,MOUNTAIN,Chris Froome,Sky,GBR,Chris Froome; Rafał Majka; Joaquim Rodríguez
+11,2015-07-15,188.0,Pau,Cauterets,MOUNTAIN,Rafał Majka,Tinkoff,POL,Rafał Majka; Joaquim Rodríguez; Greg Van Avermaet
+12,2015-07-16,195.0,Lannemezan,Plateau de Beille,MOUNTAIN,Joaquim Rodríguez,Jumbo-Visma,ESP,Joaquim Rodríguez; Greg Van Avermaet; Steve Cummings
+13,2015-07-17,198.5,Muret,Rodez,MOUNTAIN,Greg Van Avermaet,BMC Racing Team,BEL,Greg Van Avermaet; Steve Cummings; André Greipel
+14,2015-07-18,178.5,Rodez,Mende,MOUNTAIN,Steve Cummings,Team GB,GBR,Steve Cummings; André Greipel; Rubén Plaza Molina
+15,2015-07-19,183.0,Mende,Valence,MOUNTAIN,André Greipel,Tinkoff,GER,André Greipel; Rubén Plaza Molina; Simon Geschke
+16,2015-07-20,201.0,Bourg-de-Péage,Gap,MOUNTAIN,Rubén Plaza Molina,Tinkoff,ESP,Rubén Plaza Molina; Simon Geschke; Romain Bardet
+17,2015-07-22,161.0,Digne-les-Bains,Pra-Loup,MOUNTAIN,Simon Geschke,Jumbo-Visma,GER,Simon Geschke; Romain Bardet; Vincenzo Nibali
+18,2015-07-23,186.5,Gap,Saint-Jean-de-Maurienne,MOUNTAIN,Romain Bardet,Lotto Dstny,FRA,Romain Bardet; Vincenzo Nibali; Thibaut Pinot
+19,2015-07-24,138.0,Saint-Jean-de-Maurienne,La Toussuire - Les Sybelles,MOUNTAIN,Vincenzo Nibali,Astana,ITA,Vincenzo Nibali; Thibaut Pinot; André Greipel
+20,2015-07-25,110.5,Modane,Alpe d'Huez,MOUNTAIN,Thibaut Pinot,Tinkoff,FRA,Thibaut Pinot; André Greipel; Marcel Kittel
+21,2015-07-26,109.5,Sèvres,Paris,FLAT,André Greipel,Tinkoff,GER,André Greipel; Marcel Kittel; Vincenzo Nibali
+1,2014-07-05,190.5,Leeds,Harrogate,FLAT,Marcel Kittel,Dimension Data,GER,Marcel Kittel; Vincenzo Nibali; Lars Boom
+2,2014-07-06,201.0,York,Sheffield,MOUNTAIN,Vincenzo Nibali,Astana,ITA,Vincenzo Nibali; Marcel Kittel; Lars Boom
+3,2014-07-07,155.0,Cambridge,London,FLAT,Marcel Kittel,Dimension Data,GER,Marcel Kittel; André Greipel; Lars Boom
+4,2014-07-08,163.5,Le Touquet-Paris-Plage,Lille Metropole,FLAT,Marcel Kittel,Dimension Data,GER,Marcel Kittel; Lars Boom; André Greipel
+5,2014-07-09,152.5,Ypres,Arenberg Porte du Hainaut,MOUNTAIN,Lars Boom,Lotto Dstny,NED,Lars Boom; André Greipel; Matteo Trentin
+6,2014-07-10,194.0,Arras,Reims,FLAT,André Greipel,Tinkoff,GER,André Greipel; Matteo Trentin; Blel Kadri
+7,2014-07-11,234.5,Épernay,Nancy,FLAT,Matteo Trentin,Dimension Data,ITA,Matteo Trentin; Blel Kadri; Tony Martin
+8,2014-07-12,161.0,Tomblaine,Gérardmer La Mauselaine,MOUNTAIN,Blel Kadri,Tinkoff,FRA,Blel Kadri; Tony Martin; Vincenzo Nibali
+9,2014-07-13,170.0,Gérardmer,Mulhouse,MOUNTAIN,Tony Martin,Sky,GER,Tony Martin; Vincenzo Nibali; Tony Gallopin
+10,2014-07-14,161.5,Mulhouse,La Planche des Belles Filles,MOUNTAIN,Vincenzo Nibali,Astana,ITA,Vincenzo Nibali; Tony Gallopin; Alexander Kristoff
+11,2014-07-16,187.5,Besançon,Oyonnax,MOUNTAIN,Tony Gallopin,Sky,FRA,Tony Gallopin; Alexander Kristoff; Vincenzo Nibali
+12,2014-07-17,185.5,Bourg-en-Bresse,Saint-Étienne,FLAT,Alexander Kristoff,Tinkoff,NOR,Alexander Kristoff; Vincenzo Nibali; Rafał Majka
+13,2014-07-18,197.5,Saint-Étienne,Chamrousse,MOUNTAIN,Vincenzo Nibali,Astana,ITA,Vincenzo Nibali; Rafał Majka; Alexander Kristoff
+14,2014-07-19,177.0,Grenoble,Risoul,MOUNTAIN,Rafał Majka,Tinkoff,POL,Rafał Majka; Alexander Kristoff; Michael Rogers
+15,2014-07-20,222.0,Tallard,Nîmes,FLAT,Alexander Kristoff,Tinkoff,NOR,Alexander Kristoff; Michael Rogers; Rafał Majka
+16,2014-07-22,237.5,Carcassonne,Bagnères-de-Luchon,MOUNTAIN,Michael Rogers,Sky,AUS,Michael Rogers; Rafał Majka; Vincenzo Nibali
+17,2014-07-23,124.5,Saint-Gaudens,Saint-Lary Pla d’Adet,MOUNTAIN,Rafał Majka,Tinkoff,POL,Rafał Majka; Vincenzo Nibali; Ramūnas Navardauskas
+18,2014-07-24,145.5,Pau,Hautacam,MOUNTAIN,Vincenzo Nibali,Astana,ITA,Vincenzo Nibali; Ramūnas Navardauskas; Tony Martin
+19,2014-07-25,208.5,Maubourguet Pays du Val d’Adour,Bergerac,FLAT,Ramūnas Navardauskas,Lotto Dstny,LTU,Ramūnas Navardauskas; Tony Martin; Marcel Kittel
+20,2014-07-26,54.0,Bergerac,Périgueux,FLAT,Tony Martin,Sky,GER,Tony Martin; Marcel Kittel; Jan Bakelants
+21,2014-07-27,137.5,Évry,Paris,FLAT,Marcel Kittel,Dimension Data,GER,Marcel Kittel; Simon Gerrans; Jan Bakelants
+1,2013-06-29,213.0,Porto-Vecchio,Bastia,FLAT,Marcel Kittel,Dimension Data,GER,Marcel Kittel; Jan Bakelants; Simon Gerrans
+2,2013-06-30,156.0,Bastia,Ajaccio,MOUNTAIN,Jan Bakelants,Tinkoff,BEL,Jan Bakelants; Mark Cavendish; Simon Gerrans
+3,2013-07-01,145.5,Ajaccio,Calvi,MOUNTAIN,Simon Gerrans,Tinkoff,AUS,Simon Gerrans; Jan Bakelants; Mark Cavendish
+4,2013-07-02,25.0,Nice,Nice,TIME_TRIAL,Simon Gerrans,Orica–GreenEDGE,AUS,Simon Gerrans; Mark Cavendish; André Greipel
+5,2013-07-03,228.5,Cagnes-sur-Mer,Marseille,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; André Greipel; Peter Sagan
+6,2013-07-04,176.5,Aix-en-Provence,Montpellier,FLAT,André Greipel,Tinkoff,GER,André Greipel; Peter Sagan; Chris Froome
+7,2013-07-05,205.5,Montpellier,Albi,FLAT,Peter Sagan,Dimension Data,SVK,Peter Sagan; Chris Froome; Dan Martin
+8,2013-07-06,195.0,Castres,Ax 3 Domaines,MOUNTAIN,Chris Froome,Sky,GBR,Chris Froome; Dan Martin; Marcel Kittel
+9,2013-07-07,168.5,Saint-Girons,Bagnères-de-Bigorre,MOUNTAIN,Dan Martin,Sky,IRL,Dan Martin; Marcel Kittel; Tony Martin
+10,2013-07-09,197.0,Saint-Gildas-des-Bois,Saint-Malo,FLAT,Marcel Kittel,Dimension Data,GER,Marcel Kittel; Tony Martin; Mark Cavendish
+11,2013-07-10,33.0,Avranches,Mont Saint-Michel,TIME_TRIAL,Tony Martin,Sky,GER,Tony Martin; Marcel Kittel; Mark Cavendish
+12,2013-07-11,218.0,Fougères,Tours,FLAT,Marcel Kittel,Dimension Data,GER,Marcel Kittel; Mark Cavendish; Matteo Trentin
+13,2013-07-12,173.0,Tours,Saint-Amand-Montrond,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Matteo Trentin; Chris Froome
+14,2013-07-13,191.0,Saint-Pourçain-sur-Sioule,Lyon,MOUNTAIN,Matteo Trentin,Tinkoff,ITA,Matteo Trentin; Chris Froome; Rui Costa
+15,2013-07-14,242.5,Givors,Mont Ventoux,MOUNTAIN,Chris Froome,Sky,GBR,Chris Froome; Rui Costa; Christophe Riblon
+16,2013-07-16,168.0,Vaison-la-Romaine,Gap,MOUNTAIN,Rui Costa,Movistar,POR,Rui Costa; Chris Froome; Christophe Riblon
+17,2013-07-17,32.0,Embrun,Chorges,TIME_TRIAL,Chris Froome,Sky,GBR,Chris Froome; Christophe Riblon; Rui Costa
+18,2013-07-18,172.5,Gap,Alpe d'Huez,MOUNTAIN,Christophe Riblon,Lotto Dstny,FRA,Christophe Riblon; Rui Costa; Nairo Quintana
+19,2013-07-19,204.5,Le Bourg-d'Oisans,Le Grand-Bornand,MOUNTAIN,Rui Costa,Movistar,POR,Rui Costa; Nairo Quintana; Marcel Kittel
+20,2013-07-20,125.0,Annecy,Semnoz,MOUNTAIN,Nairo Quintana,Movistar,COL,Nairo Quintana; Marcel Kittel; Fabian Cancellara
+21,2013-07-21,133.5,Versailles,Paris,FLAT,Marcel Kittel,Dimension Data,GER,Marcel Kittel; Fabian Cancellara; Peter Sagan
+1,2012-06-30,6.4,Liège,Liège,TIME_TRIAL,Fabian Cancellara,Lotto Dstny,SUI,Fabian Cancellara; Peter Sagan; Mark Cavendish
+2,2012-07-01,198.0,Liège,Seraing,FLAT,Peter Sagan,Dimension Data,SVK,Peter Sagan; Mark Cavendish; Chris Froome
+3,2012-07-02,207.5,Visé,Tournai,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Peter Sagan; André Greipel
+4,2012-07-03,197.0,Orchies,Boulogne-sur-Mer,MOUNTAIN,Peter Sagan,Dimension Data,SVK,Peter Sagan; André Greipel; Thibaut Pinot
+5,2012-07-04,214.5,Abbeville,Rouen,FLAT,André Greipel,Tinkoff,GER,André Greipel; Chris Froome; Peter Sagan
+6,2012-07-05,196.5,Rouen,Saint-Quentin,FLAT,André Greipel,Tinkoff,GER,André Greipel; Peter Sagan; Chris Froome
+7,2012-07-06,207.5,Épernay,Metz,FLAT,Peter Sagan,Dimension Data,SVK,Peter Sagan; Chris Froome; Thibaut Pinot
+8,2012-07-07,199.0,Tomblaine,La Planche des Belles Filles,MOUNTAIN,Chris Froome,Sky,GBR,Chris Froome; Thibaut Pinot; Bradley Wiggins
+9,2012-07-08,157.5,Belfort,Porrentruy,MOUNTAIN,Thibaut Pinot,Tinkoff,FRA,Thibaut Pinot; Bradley Wiggins; Thomas Voeckler
+10,2012-07-09,41.5,Arc-et-Senans,Besançon,TIME_TRIAL,Bradley Wiggins,Sky,GBR,Bradley Wiggins; Thomas Voeckler; Pierre Rolland
+11,2012-07-11,194.5,Mâcon,Bellegarde-sur-Valserine,MOUNTAIN,Thomas Voeckler,Jumbo-Visma,FRA,Thomas Voeckler; Pierre Rolland; David Millar
+12,2012-07-12,148.0,Albertville,La Toussuire-Les Sybelles,MOUNTAIN,Pierre Rolland,Tinkoff,FRA,Pierre Rolland; David Millar; André Greipel
+13,2012-07-13,226.0,Saint-Jean-de-Maurienne,Annonay-Davézieux,MOUNTAIN,David Millar,Movistar,GBR,David Millar; André Greipel; Luis León Sánchez
+14,2012-07-14,217.0,Saint-Paul-Trois-Châteaux,Cap d'Agde,FLAT,André Greipel,Tinkoff,GER,André Greipel; Luis León Sánchez; Pierrick Fédrigo
+15,2012-07-15,191.0,Limoux,Foix,MOUNTAIN,Luis León Sánchez,Movistar,ESP,Luis León Sánchez; Pierrick Fédrigo; Thomas Voeckler
+16,2012-07-16,158.5,Samatan,Pau,FLAT,Pierrick Fédrigo,Lotto Dstny,FRA,Pierrick Fédrigo; Thomas Voeckler; Alejandro Valverde
+17,2012-07-18,197.0,Pau,Bagnères-de-Luchon,MOUNTAIN,Thomas Voeckler,Jumbo-Visma,FRA,Thomas Voeckler; Alejandro Valverde; Mark Cavendish
+18,2012-07-19,143.5,Bagnères-de-Luchon,Peyragudes,MOUNTAIN,Alejandro Valverde,Movistar,ESP,Alejandro Valverde; Mark Cavendish; Bradley Wiggins
+19,2012-07-20,222.5,Blagnac,Brive-la-Gaillarde,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Bradley Wiggins; Samuel Sánchez
+20,2012-07-21,53.5,Bonneval,Chartres,TIME_TRIAL,Bradley Wiggins,Sky,GBR,Bradley Wiggins; Mark Cavendish; Philippe Gilbert
+21,2012-07-22,120.0,Rambouillet,Paris,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Philippe Gilbert; Andreas Klier
+1,2011-07-02,191.5,Passage du Gois,Mont des Alouettes,FLAT,Philippe Gilbert,Tinkoff,BEL,Philippe Gilbert; Andreas Klier; Tyler Farrar
+2,2011-07-03,23.0,Les Essarts,Les Essarts,TIME_TRIAL,Andreas Klier,Garmin–Cervélo,GER,Andreas Klier; Tyler Farrar; Cadel Evans
+3,2011-07-04,198.0,Olonne-sur-Mer,Redon,FLAT,Tyler Farrar,Dimension Data,USA,Tyler Farrar; Cadel Evans; Mark Cavendish
+4,2011-07-05,172.5,Lorient,Mûr-de-Bretagne,FLAT,Cadel Evans,Dimension Data,AUS,Cadel Evans; Mark Cavendish; Edvald Boasson Hagen
+5,2011-07-06,164.5,Carhaix,Cap Fréhel,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Edvald Boasson Hagen; Cadel Evans
+6,2011-07-07,226.5,Dinan,Lisieux,FLAT,Edvald Boasson Hagen,Tinkoff,NOR,Edvald Boasson Hagen; Mark Cavendish; Rui Costa
+7,2011-07-08,218.0,Le Mans,Châteauroux,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Rui Costa; Luis León Sánchez
+8,2011-07-09,189.0,Aigurande,Super Besse,MOUNTAIN,Rui Costa,Movistar,POR,Rui Costa; Luis León Sánchez; André Greipel
+9,2011-07-10,208.0,Issoire,Saint-Flour,MOUNTAIN,Luis León Sánchez,Movistar,ESP,Luis León Sánchez; André Greipel; Mark Cavendish
+10,2011-07-12,158.0,Aurillac,Carmaux,FLAT,André Greipel,Tinkoff,GER,André Greipel; Mark Cavendish; Samuel Sánchez
+11,2011-07-13,167.5,Blaye-les-Mines,Lavaur,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Samuel Sánchez; Thor Hushovd
+12,2011-07-14,211.0,Cugnaux,Luz Ardiden,MOUNTAIN,Samuel Sánchez,Movistar,ESP,Samuel Sánchez; Thor Hushovd; Jelle Vanendert
+13,2011-07-15,152.5,Pau,Lourdes,MOUNTAIN,Thor Hushovd,Garmin–Cervélo,NOR,Thor Hushovd; Jelle Vanendert; Mark Cavendish
+14,2011-07-16,168.5,Saint-Gaudens,Plateau de Beille,MOUNTAIN,Jelle Vanendert,Jumbo-Visma,BEL,Jelle Vanendert; Mark Cavendish; Thor Hushovd
+15,2011-07-17,192.5,Limoux,Montpellier,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Thor Hushovd; Edvald Boasson Hagen
+16,2011-07-19,162.5,Saint-Paul-Trois-Châteaux,Gap,MOUNTAIN,Thor Hushovd,Garmin–Cervélo,NOR,Thor Hushovd; Edvald Boasson Hagen; Andy Schleck
+17,2011-07-20,179.0,Gap,Pinerolo,MOUNTAIN,Edvald Boasson Hagen,Tinkoff,NOR,Edvald Boasson Hagen; Andy Schleck; Pierre Rolland
+18,2011-07-21,200.5,Pinerolo,Col du Galibier-Serre Chevalier,MOUNTAIN,Andy Schleck,Lotto Dstny,LUX,Andy Schleck; Pierre Rolland; Tony Martin
+19,2011-07-22,109.5,Modane,Alpe d'Huez,MOUNTAIN,Pierre Rolland,Jumbo-Visma,FRA,Pierre Rolland; Tony Martin; Mark Cavendish
+20,2011-07-23,42.5,Grenoble,Grenoble,TIME_TRIAL,Tony Martin,Sky,GER,Tony Martin; Mark Cavendish; Fabian Cancellara
+21,2011-07-24,95.0,Créteil,Paris,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Fabian Cancellara; Alessandro Petacchi
+1,2010-07-03,8.9,Rotterdam,Rotterdam,TIME_TRIAL,Fabian Cancellara,Lotto Dstny,SUI,Fabian Cancellara; Alessandro Petacchi; Sylvain Chavanel
+2,2010-07-04,223.5,Rotterdam,Brussels,FLAT,Alessandro Petacchi,Jumbo-Visma,ITA,Alessandro Petacchi; Sylvain Chavanel; Thor Hushovd
+3,2010-07-05,201.0,Brussels,Spa,FLAT,Sylvain Chavanel,Astana,FRA,Sylvain Chavanel; Thor Hushovd; Alessandro Petacchi
+4,2010-07-06,213.0,Wanze,Arenberg Porte du Hainaut,FLAT,Thor Hushovd,Garmin–Cervélo,NOR,Thor Hushovd; Alessandro Petacchi; Mark Cavendish
+5,2010-07-07,153.5,Cambrai,Reims,FLAT,Alessandro Petacchi,Jumbo-Visma,ITA,Alessandro Petacchi; Mark Cavendish; Thor Hushovd
+6,2010-07-08,187.5,Épernay,Montargis,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Andy Schleck; Sylvain Chavanel
+7,2010-07-09,227.5,Montargis,Gueugnon,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Sylvain Chavanel; Andy Schleck
+8,2010-07-10,165.5,Tournus,Station des Rousses,MOUNTAIN,Sylvain Chavanel,Tinkoff,FRA,Sylvain Chavanel; Andy Schleck; Sandy Casar
+9,2010-07-11,189.0,Station des Rousses,Morzine-Avoriaz,MOUNTAIN,Andy Schleck,Lotto Dstny,LUX,Andy Schleck; Sandy Casar; Sérgio Paulinho
+10,2010-07-13,204.5,Morzine-Avoriaz,Saint-Jean-de-Maurienne,MOUNTAIN,Sandy Casar,Jumbo-Visma,FRA,Sandy Casar; Sérgio Paulinho; Mark Cavendish
+11,2010-07-14,179.0,Chambéry,Gap,MOUNTAIN,Sérgio Paulinho,Jumbo-Visma,POR,Sérgio Paulinho; Mark Cavendish; Joaquim Rodríguez
+12,2010-07-15,184.5,Sisteron,Bourg-lès-Valence,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Joaquim Rodríguez; Alexander Vinokourov
+13,2010-07-16,210.5,Bourg-de-Péage,Mende,MOUNTAIN,Joaquim Rodríguez,Tinkoff,ESP,Joaquim Rodríguez; Alexander Vinokourov; Christophe Riblon
+14,2010-07-17,196.0,Rodez,Revel,FLAT,Alexander Vinokourov,Lotto Dstny,KAZ,Alexander Vinokourov; Christophe Riblon; Thomas Voeckler
+15,2010-07-18,184.5,Revel,Ax 3 Domaines,MOUNTAIN,Christophe Riblon,Jumbo-Visma,FRA,Christophe Riblon; Thomas Voeckler; Pierrick Fédrigo
+16,2010-07-19,187.5,Pamiers,Bagnères-de-Luchon,MOUNTAIN,Thomas Voeckler,Tinkoff,FRA,Thomas Voeckler; Pierrick Fédrigo; Andy Schleck
+17,2010-07-20,199.5,Bagnères-de-Luchon,Pau,MOUNTAIN,Pierrick Fédrigo,Lotto Dstny,FRA,Pierrick Fédrigo; Andy Schleck; Mark Cavendish
+18,2010-07-22,174.0,Pau,Col du Tourmalet,MOUNTAIN,Andy Schleck,Lotto Dstny,LUX,Andy Schleck; Mark Cavendish; Fabian Cancellara
+19,2010-07-23,198.0,Salies-de-Béarn,Bordeaux,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Fabian Cancellara; Andy Schleck
+20,2010-07-24,52.0,Bordeaux,Pauillac,TIME_TRIAL,Fabian Cancellara,Lotto Dstny,SUI,Fabian Cancellara; Mark Cavendish; Thor Hushovd
+21,2010-07-25,102.5,Longjumeau,Paris,FLAT,Mark Cavendish,Dimension Data,GBR,Mark Cavendish; Fabian Cancellara; Alberto Contador
+1,2009-07-04,15.5,Monaco,Monaco,TIME_TRIAL,Fabian Cancellara,Saxo,SUI,Fabian Cancellara; Mark Cavendish; Alberto Contador
+2,2009-07-05,187.0,Monaco,Brignoles,FLAT,Mark Cavendish,T-Mobile,GBR,Mark Cavendish; Thomas Voeckler; Alberto Contador
+3,2009-07-06,196.5,Marseille,La Grande-Motte,FLAT,Mark Cavendish,T-Mobile,GBR,Mark Cavendish; Alberto Contador; Thomas Voeckler
+4,2009-07-07,39.0,Montpellier,Montpellier,TIME_TRIAL,Alberto Contador,Astana,ESP,Alberto Contador; Thomas Voeckler; Thor Hushovd
+5,2009-07-08,196.5,Cap d'Agde,Perpignan,FLAT,Thomas Voeckler,TotalEnergies,FRA,Thomas Voeckler; Thor Hushovd; Brice Feillu
+6,2009-07-09,181.5,Girona,Barcelona,FLAT,Thor Hushovd,BMC Racing Team,NOR,Thor Hushovd; Brice Feillu; Luis León Sánchez
+7,2009-07-10,224.0,Barcelona,Andorra-Arcalis,MOUNTAIN,Brice Feillu,Agritubel,FRA,Brice Feillu; Luis León Sánchez; Pierrick Fédrigo
+8,2009-07-11,176.5,Andorra la Vella,Saint-Girons,MOUNTAIN,Luis León Sánchez,Astana,ESP,Luis León Sánchez; Pierrick Fédrigo; Mark Cavendish
+9,2009-07-12,160.5,Saint-Gaudens,Tarbes,MOUNTAIN,Pierrick Fédrigo,Bouygues Telecom,FRA,Pierrick Fédrigo; Mark Cavendish; Andy Schleck
+10,2009-07-14,194.5,Limoges,Issoudun,FLAT,Mark Cavendish,T-Mobile,GBR,Mark Cavendish; Andy Schleck; Nicki Sørensen
+11,2009-07-15,192.0,Vatan,Saint-Fargeau,FLAT,Mark Cavendish,T-Mobile,GBR,Mark Cavendish; Nicki Sørensen; Heinrich Haussler
+12,2009-07-16,211.5,Tonnerre,Vittel,FLAT,Nicki Sørensen,Agritubel,DEN,Nicki Sørensen; Heinrich Haussler; Sergei Ivanov
+13,2009-07-17,200.0,Vittel,Colmar,MOUNTAIN,Heinrich Haussler,BMC Racing Team,GER,Heinrich Haussler; Sergei Ivanov; Alberto Contador
+14,2009-07-18,199.0,Colmar,Besançon,FLAT,Sergei Ivanov,Bouygues Telecom,RUS,Sergei Ivanov; Alberto Contador; Sandy Casar
+15,2009-07-19,207.5,Pontarlier,Verbier,MOUNTAIN,Alberto Contador,Astana,ESP,Alberto Contador; Sandy Casar; Fränk Schleck
+16,2009-07-21,159.0,Martigny,Bourg-Saint-Maurice,MOUNTAIN,Sandy Casar,Jumbo-Visma,FRA,Sandy Casar; Fränk Schleck; Alberto Contador
+17,2009-07-22,169.5,Bourg-Saint-Maurice,Le Grand-Bornand,MOUNTAIN,Fränk Schleck,Saxo,LUX,Fränk Schleck; Alberto Contador; Mark Cavendish
+18,2009-07-23,40.5,Annecy,Annecy,TIME_TRIAL,Alberto Contador,Astana,ESP,Alberto Contador; Mark Cavendish; Juan Manuel Gárate
+19,2009-07-24,178.0,Bourgoin-Jallieu,Aubenas,FLAT,Mark Cavendish,T-Mobile,GBR,Mark Cavendish; Juan Manuel Gárate; Alberto Contador
+20,2009-07-25,167.0,Montélimar,Mont Ventoux,MOUNTAIN,Juan Manuel Gárate,Rabobank,ESP,Juan Manuel Gárate; Mark Cavendish; Alejandro Valverde
+21,2009-07-26,164.0,Montereau-Fault-Yonne,Paris,FLAT,Mark Cavendish,T-Mobile,GBR,Mark Cavendish; Alejandro Valverde; Thor Hushovd
+1,2008-07-05,197.5,Brest,Plumelec,FLAT,Alejandro Valverde,Movistar,ESP,Alejandro Valverde; Thor Hushovd; Samuel Dumoulin
+2,2008-07-06,164.5,Auray,Saint-Brieuc,FLAT,Thor Hushovd,BMC Racing Team,NOR,Thor Hushovd; Samuel Dumoulin; Kim Kirchen
+3,2008-07-07,208.0,Saint-Malo,Nantes,FLAT,Samuel Dumoulin,Tinkoff,FRA,Samuel Dumoulin; Kim Kirchen; Mark Cavendish
+4,2008-07-08,29.5,Cholet,Cholet,TIME_TRIAL,Kim Kirchen,Astana,LUX,Kim Kirchen; Mark Cavendish; Alejandro Valverde
+5,2008-07-09,232.0,Cholet,Châteauroux,FLAT,Mark Cavendish,T-Mobile,GBR,Mark Cavendish; Alejandro Valverde; Luis León Sánchez
+6,2008-07-10,195.5,Aigurande,Super-Besse Sancy,FLAT,Alejandro Valverde,Movistar,ESP,Alejandro Valverde; Luis León Sánchez; Mark Cavendish
+7,2008-07-11,159.0,Brioude,Aurillac,FLAT,Luis León Sánchez,Astana,ESP,Luis León Sánchez; Mark Cavendish; Vladimir Efimkin
+8,2008-07-12,172.5,Figeac,Toulouse,FLAT,Mark Cavendish,T-Mobile,GBR,Mark Cavendish; Vladimir Efimkin; Juan José Cobo
+9,2008-07-13,224.0,Toulouse,Bagnères-de-Bigorre,MOUNTAIN,Vladimir Efimkin,Rabobank,RUS,Vladimir Efimkin; Juan José Cobo; Kurt Asle Arvesen
+10,2008-07-14,156.0,Pau,Hautacam,MOUNTAIN,Juan José Cobo,Movistar,ESP,Juan José Cobo; Kurt Asle Arvesen; Mark Cavendish
+11,2008-07-16,167.5,Lannemezan,Foix,FLAT,Kurt Asle Arvesen,T-Mobile,NOR,Kurt Asle Arvesen; Mark Cavendish; Juan José Cobo
+12,2008-07-17,168.5,Lavelanet,Narbonne,FLAT,Mark Cavendish,T-Mobile,GBR,Mark Cavendish; Juan José Cobo; Óscar Freire
+13,2008-07-18,182.0,Narbonne,Nîmes,FLAT,Mark Cavendish,T-Mobile,GBR,Mark Cavendish; Óscar Freire; Simon Gerrans
+14,2008-07-19,194.5,Nîmes,Digne-les-Bains,FLAT,Óscar Freire,Saxo,ESP,Óscar Freire; Simon Gerrans; Cyril Dessel
+15,2008-07-20,183.0,Embrun,Prato Nevoso,MOUNTAIN,Simon Gerrans,Tinkoff,AUS,Simon Gerrans; Cyril Dessel; Carlos Sastre
+16,2008-07-22,157.0,Cuneo,Jausiers,MOUNTAIN,Cyril Dessel,TotalEnergies,FRA,Cyril Dessel; Carlos Sastre; Marcus Burghardt
+17,2008-07-23,210.5,Embrun,Alpe d'Huez,MOUNTAIN,Carlos Sastre,Movistar,ESP,Carlos Sastre; Marcus Burghardt; Sylvain Chavanel
+18,2008-07-24,196.5,Bourg-d'Oisans,Saint-Étienne,FLAT,Marcus Burghardt,Bouygues Telecom,GER,Marcus Burghardt; Sylvain Chavanel; Fabian Cancellara
+19,2008-07-25,165.5,Roanne,Montluçon,FLAT,Sylvain Chavanel,Bora-Hansgohe,FRA,Sylvain Chavanel; Fabian Cancellara; Gert Steegmans
+20,2008-07-26,53.0,Cérilly,Saint-Amand-Montrond,TIME_TRIAL,Fabian Cancellara,Saxo,SUI,Fabian Cancellara; Gert Steegmans; Marcus Burghardt
+21,2008-07-27,143.0,Étampes,Paris,FLAT,Gert Steegmans,Tinkoff,BEL,Gert Steegmans; Fabian Cancellara; Robbie McEwen
+1,2007-07-07,7.9,London,London,TIME_TRIAL,Fabian Cancellara,Saxo,SUI,Fabian Cancellara; Robbie McEwen; Gert Steegmans
+2,2007-07-08,203.0,London,Canterbury,FLAT,Robbie McEwen,TotalEnergies,AUS,Robbie McEwen; Gert Steegmans; Fabian Cancellara
+3,2007-07-09,168.5,Dunkirk,Ghent,FLAT,Gert Steegmans,Tinkoff,BEL,Gert Steegmans; Fabian Cancellara; Thor Hushovd
+4,2007-07-10,236.5,Waregem - Compiègne,Waregem - Compiègne,FLAT,Fabian Cancellara,Saxo,SUI,Fabian Cancellara; Thor Hushovd; Filippo Pozzato
+5,2007-07-11,193.0,Villers-Cotterêts,Joigny,FLAT,Thor Hushovd,BMC Racing Team,NOR,Thor Hushovd; Filippo Pozzato; Tom Boonen
+6,2007-07-12,182.5,Chablis,Autun,FLAT,Filippo Pozzato,Astana,ITA,Filippo Pozzato; Tom Boonen; Linus Gerdemann
+7,2007-07-13,199.5,Semur-en-Auxois,Bourg-en-Bresse,FLAT,Tom Boonen,Agritubel,BEL,Tom Boonen; Linus Gerdemann; Michael Rasmussen
+8,2007-07-14,197.5,Bourg-en-Bresse,Le Grand-Bornand,MOUNTAIN,Linus Gerdemann,Tinkoff,GER,Linus Gerdemann; Michael Rasmussen; Mauricio Soler
+9,2007-07-15,165.0,Le Grand-Bornand,Tignes,MOUNTAIN,Michael Rasmussen,Astana,DEN,Michael Rasmussen; Mauricio Soler; Cédric Vasseur
+10,2007-07-17,159.5,Val-d'Isère,Briançon,MOUNTAIN,Mauricio Soler,Movistar,COL,Mauricio Soler; Cédric Vasseur; Robert Hunter
+11,2007-07-18,229.5,Tallard,Marseille,FLAT,Cédric Vasseur,Agritubel,FRA,Cédric Vasseur; Robert Hunter; Tom Boonen
+12,2007-07-19,182.5,Marseille,Montpellier,FLAT,Robert Hunter,TotalEnergies,RSA,Robert Hunter; Tom Boonen; Cadel Evans
+13,2007-07-20,178.5,Montpellier,Castres,FLAT,Tom Boonen,Agritubel,BEL,Tom Boonen; Cadel Evans; Alberto Contador
+14,2007-07-21,54.0,Albi,Albi,TIME_TRIAL,Cadel Evans,T-Mobile,AUS,Cadel Evans; Alberto Contador; Kim Kirchen
+15,2007-07-22,197.0,Mazamet,Plateau-de-Beille,MOUNTAIN,Alberto Contador,Astana,ESP,Alberto Contador; Kim Kirchen; Michael Rasmussen
+16,2007-07-23,196.0,Foix,Loudenvielle,MOUNTAIN,Kim Kirchen,Astana,LUX,Kim Kirchen; Michael Rasmussen; Daniele Bennati
+17,2007-07-25,218.5,Orthez,Gourette–Col d'Aubisque,MOUNTAIN,Michael Rasmussen,Astana,DEN,Michael Rasmussen; Daniele Bennati; Sandy Casar
+18,2007-07-26,188.5,Pau,Castelsarrasin,FLAT,Daniele Bennati,Saxo,ITA,Daniele Bennati; Sandy Casar; Levi Leipheimer
+19,2007-07-27,211.0,Cahors,Angoulême,FLAT,Sandy Casar,Jumbo-Visma,FRA,Sandy Casar; Levi Leipheimer; Daniele Bennati
+20,2007-07-28,55.5,Cognac,Angoulême,TIME_TRIAL,Levi Leipheimer,T-Mobile,USA,Levi Leipheimer; Daniele Bennati; Thor Hushovd
+21,2007-07-29,146.0,Marcoussis,Paris,FLAT,Daniele Bennati,T-Mobile,ITA,Daniele Bennati; Thor Hushovd; Jimmy Casper
+1,2006-07-01,7.1,Strasbourg,Strasbourg,TIME_TRIAL,Thor Hushovd,BMC Racing Team,NOR,Thor Hushovd; Jimmy Casper; Robbie McEwen
+2,2006-07-02,184.5,Strasbourg,Strasbourg,FLAT,Jimmy Casper,Jumbo-Visma,FRA,Jimmy Casper; Robbie McEwen; Matthias Kessler
+3,2006-07-03,228.5,Obernai,Esch-sur-Alzette,FLAT,Robbie McEwen,Saxo,AUS,Robbie McEwen; Matthias Kessler; Óscar Freire
+4,2006-07-04,216.5,Esch-sur-Alzette,Valkenburg,FLAT,Matthias Kessler,T-Mobile,GER,Matthias Kessler; Robbie McEwen; Óscar Freire
+5,2006-07-05,207.0,Huy,Saint-Quentin,FLAT,Robbie McEwen,Saxo,AUS,Robbie McEwen; Óscar Freire; Juan Miguel Mercado
+6,2006-07-06,225.0,Beauvais,Caen,FLAT,Óscar Freire,Saxo,ESP,Óscar Freire; Robbie McEwen; Serhiy Honchar
+7,2006-07-07,189.0,Lisieux,Vitré,FLAT,Robbie McEwen,Saxo,AUS,Robbie McEwen; Serhiy Honchar; Sylvain Calzati
+8,2006-07-08,52.0,Saint Grégoire,Rennes,TIME_TRIAL,Serhiy Honchar,T-Mobile,UKR,Serhiy Honchar; Sylvain Calzati; Óscar Freire
+9,2006-07-09,181.0,Saint-Méen-le-Grand,Lorient,FLAT,Sylvain Calzati,Astana,FRA,Sylvain Calzati; Óscar Freire; Juan Miguel Mercado
+10,2006-07-11,169.5,Bordeaux,Dax,FLAT,Óscar Freire,Saxo,ESP,Óscar Freire; Juan Miguel Mercado; Denis Menchov
+11,2006-07-12,190.5,Cambo-les-Bains,Pau,MOUNTAIN,Juan Miguel Mercado,Movistar,ESP,Juan Miguel Mercado; Denis Menchov; Yaroslav Popovych
+12,2006-07-13,206.5,Tarbes,Val d'Aran/Pla-de-Beret,MOUNTAIN,Denis Menchov,Jumbo-Visma,RUS,Denis Menchov; Yaroslav Popovych; Jens Voigt
+13,2006-07-14,211.5,Luchon,Carcassonne,FLAT,Yaroslav Popovych,Astana,UKR,Yaroslav Popovych; Jens Voigt; Pierrick Fédrigo
+14,2006-07-15,230.0,Béziers,Montélimar,FLAT,Jens Voigt,BMC Racing Team,GER,Jens Voigt; Pierrick Fédrigo; Fränk Schleck
+15,2006-07-16,180.5,Montélimar,Gap,FLAT,Pierrick Fédrigo,Bouygues Telecom,FRA,Pierrick Fédrigo; Fränk Schleck; Michael Rasmussen
+16,2006-07-18,187.0,Gap,Alpe d'Huez,MOUNTAIN,Fränk Schleck,Saxo,LUX,Fränk Schleck; Michael Rasmussen; Carlos Sastre
+17,2006-07-19,182.0,Le Bourg-d'Oisans,La Toussuire,MOUNTAIN,Michael Rasmussen,Astana,DEN,Michael Rasmussen; Carlos Sastre; Matteo Tosatto
+18,2006-07-20,200.5,Saint-Jean-de-Maurienne,Morzine,MOUNTAIN,Carlos Sastre,Movistar,ESP,Carlos Sastre; Matteo Tosatto; Serhiy Honchar
+19,2006-07-21,197.0,Morzine,Mâcon,FLAT,Matteo Tosatto,Astana,ITA,Matteo Tosatto; Serhiy Honchar; Thor Hushovd
+20,2006-07-22,57.0,Le Creusot,Montceau-les-Mines,TIME_TRIAL,Serhiy Honchar,T-Mobile,UKR,Serhiy Honchar; Thor Hushovd; David Zabriskie
+21,2006-07-23,154.5,Antony/Parc de Sceaux,Paris,FLAT,Thor Hushovd,BMC Racing Team,NOR,Thor Hushovd; David Zabriskie; Tom Boonen
+1,2005-07-02,19.0,Fromentine,Noirmoutier-en-l'Île,TIME_TRIAL,David Zabriskie,Discovery Channel,USA,David Zabriskie; Tom Boonen; Thor Hushovd
+2,2005-07-03,181.5,Challans,Les Essarts,FLAT,Tom Boonen,Agritubel,BEL,Tom Boonen; Robbie McEwen; Lance Armstrong
+3,2005-07-04,212.5,La Châtaigneraie,Tours,FLAT,Tom Boonen,Agritubel,BEL,Tom Boonen; Lance Armstrong; Robbie McEwen
+4,2005-07-05,67.5,Tours,Blois,TIME_TRIAL,Lance Armstrong,Discovery Channel,USA,Lance Armstrong; Robbie McEwen; Lorenzo Bernucci
+5,2005-07-06,183.0,Chambord,Montargis,FLAT,Robbie McEwen,Saxo,AUS,Robbie McEwen; Lorenzo Bernucci; Lance Armstrong
+6,2005-07-07,199.0,Troyes,Nancy,FLAT,Lorenzo Bernucci,Saxo,ITA,Lorenzo Bernucci; Robbie McEwen; Pieter Weening
+7,2005-07-08,228.5,Lunéville,Karlsruhe,FLAT,Robbie McEwen,Saxo,AUS,Robbie McEwen; Pieter Weening; Michael Rasmussen
+8,2005-07-09,231.5,Pforzheim,Gérardmer,FLAT,Pieter Weening,Tinkoff,NED,Pieter Weening; Michael Rasmussen; Alejandro Valverde
+9,2005-07-10,171.0,Gérardmer,Mulhouse,FLAT,Michael Rasmussen,Astana,DEN,Michael Rasmussen; Alejandro Valverde; Alexander Vinokourov
+10,2005-07-12,177.0,Grenoble,Courchevel,MOUNTAIN,Alejandro Valverde,Movistar,ESP,Alejandro Valverde; Alexander Vinokourov; David Moncoutié
+11,2005-07-13,173.0,Courchevel,Briançon,MOUNTAIN,Alexander Vinokourov,Discovery Channel,KAZ,Alexander Vinokourov; David Moncoutié; Robbie McEwen
+12,2005-07-14,187.0,Briançon,Digne-les-Bains,FLAT,David Moncoutié,Agritubel,FRA,David Moncoutié; Robbie McEwen; Georg Totschnig
+13,2005-07-15,173.5,Miramas,Montpellier,FLAT,Robbie McEwen,Saxo,AUS,Robbie McEwen; Georg Totschnig; George Hincapie
+14,2005-07-16,220.5,Agde,Ax 3 Domaines,MOUNTAIN,Georg Totschnig,Tinkoff,AUT,Georg Totschnig; George Hincapie; Óscar Pereiro
+15,2005-07-17,205.5,Lézat-sur-Lèze,Saint-Lary-Soulan Pla d'Adet,MOUNTAIN,George Hincapie,Discovery Channel,USA,George Hincapie; Óscar Pereiro; Paolo Savoldelli
+16,2005-07-19,180.5,Mourenx,Pau,MOUNTAIN,Óscar Pereiro,Movistar,ESP,Óscar Pereiro; Paolo Savoldelli; Marcos Antonio Serrano
+17,2005-07-20,239.5,Pau,Revel,FLAT,Paolo Savoldelli,Astana,ITA,Paolo Savoldelli; Marcos Antonio Serrano; Giuseppe Guerini
+18,2005-07-21,189.0,Albi,Mende,FLAT,Marcos Antonio Serrano,Movistar,ESP,Marcos Antonio Serrano; Giuseppe Guerini; Lance Armstrong
+19,2005-07-22,153.5,Issoire,Le Puy-en-Velay,FLAT,Giuseppe Guerini,Saxo,ITA,Giuseppe Guerini; Lance Armstrong; Alexander Vinokourov
+20,2005-07-23,55.5,Saint-Étienne,Saint-Étienne,TIME_TRIAL,Lance Armstrong,Discovery Channel,USA,Lance Armstrong; Alexander Vinokourov; Fabian Cancellara
+21,2005-07-24,144.5,Corbeil-Essonnes,Paris,FLAT,Alexander Vinokourov,Discovery Channel,KAZ,Alexander Vinokourov; Fabian Cancellara; Jaan Kirsipuu
+1,2004-07-03,6.1,Liège,Liège,TIME_TRIAL,Fabian Cancellara,Saxo,SUI,Fabian Cancellara; Jaan Kirsipuu; Robbie McEwen
+2,2004-07-04,202.5,Liège,Charleroi,FLAT,Jaan Kirsipuu,Agritubel,EST,Jaan Kirsipuu; Robbie McEwen; Jean-Patrick Nazon
+3,2004-07-05,197.0,Charleroi,Namur,FLAT,Robbie McEwen,Saxo,AUS,Robbie McEwen; Jean-Patrick Nazon; Lance Armstrong
+4,2004-07-06,210.0,Waterloo,Wasquehal,FLAT,Jean-Patrick Nazon,Tinkoff,FRA,Jean-Patrick Nazon; Lance Armstrong; Stuart O'Grady
+5,2004-07-07,64.5,Cambrai,Arras,TIME_TRIAL,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Stuart O'Grady; Tom Boonen
+6,2004-07-08,200.5,Amiens,Chartres,FLAT,Stuart O'Grady,BMC Racing Team,AUS,Stuart O'Grady; Tom Boonen; Filippo Pozzato
+7,2004-07-09,196.0,Bonneval,Angers,FLAT,Tom Boonen,Agritubel,BEL,Tom Boonen; Filippo Pozzato; Thor Hushovd
+8,2004-07-10,204.5,Châteaubriant,Saint-Brieuc,FLAT,Filippo Pozzato,Astana,ITA,Filippo Pozzato; Thor Hushovd; Robbie McEwen
+9,2004-07-11,168.0,Lamballe,Quimper,FLAT,Thor Hushovd,BMC Racing Team,NOR,Thor Hushovd; Robbie McEwen; Richard Virenque
+10,2004-07-13,160.5,Saint-Léonard-de-Noblat,Guéret,FLAT,Robbie McEwen,Saxo,AUS,Robbie McEwen; Richard Virenque; David Moncoutié
+11,2004-07-14,237.0,Limoges,Saint-Flour,FLAT,Richard Virenque,BMC Racing Team,FRA,Richard Virenque; David Moncoutié; Ivan Basso
+12,2004-07-15,164.0,Saint-Flour,Figeac,FLAT,David Moncoutié,Agritubel,FRA,David Moncoutié; Ivan Basso; Lance Armstrong
+13,2004-07-16,197.5,Castelsarrasin,La Mongie,MOUNTAIN,Ivan Basso,Astana,ITA,Ivan Basso; Lance Armstrong; Aitor González
+14,2004-07-17,205.5,Lannemezan,Plateau de Beille,MOUNTAIN,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Aitor González; Ivan Basso
+15,2004-07-18,192.5,Carcassonne,Nîmes,FLAT,Aitor González,Movistar,ESP,Aitor González; Lance Armstrong; Ivan Basso
+16,2004-07-20,180.5,Valréas,Villard-de-Lans,MOUNTAIN,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Ivan Basso; Juan Miguel Mercado
+17,2004-07-21,15.5,Le Bourg-d'Oisans,Alpe d'Huez,TIME_TRIAL,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Bradley McGee; Juan Miguel Mercado
+18,2004-07-22,204.5,Le Bourg-d'Oisans,Le Grand-Bornand,MOUNTAIN,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Juan Miguel Mercado; Tom Boonen
+19,2004-07-23,166.5,Annemasse,Lons-le-Saunier,FLAT,Juan Miguel Mercado,Movistar,ESP,Juan Miguel Mercado; Lance Armstrong; Tom Boonen
+20,2004-07-24,55.0,Besançon,Besançon,TIME_TRIAL,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Tom Boonen; Bradley McGee
+21,2004-07-25,163.0,Montereau-Fault-Yonne,Paris,FLAT,Tom Boonen,Saxo,BEL,Tom Boonen; Bradley McGee; Alessandro Petacchi
+1,2003-07-05,6.5,Paris,Paris,TIME_TRIAL,Bradley McGee,BMC Racing Team,AUS,Bradley McGee; Alessandro Petacchi; Baden Cooke
+2,2003-07-06,168.0,Saint-Denis,Meaux,FLAT,Alessandro Petacchi,Astana,ITA,Alessandro Petacchi; Baden Cooke; Lance Armstrong
+3,2003-07-07,204.5,La Ferté-sous-Jouarre,Sedan,FLAT,Baden Cooke,BMC Racing Team,AUS,Baden Cooke; Alessandro Petacchi; Lance Armstrong
+4,2003-07-08,167.5,Charleville-Mézières,Saint-Dizier,FLAT,Alessandro Petacchi,Astana,ITA,Alessandro Petacchi; Lance Armstrong; Richard Virenque
+5,2003-07-09,69.0,Joinville,Saint-Dizier,TIME_TRIAL,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Alessandro Petacchi; Richard Vienque
+6,2003-07-10,196.5,Troyes,Nevers,FLAT,Alessandro Petacchi,Astana,ITA,Alessandro Petacchi; Iban Mayo; Richard Virenque
+7,2003-07-11,230.0,Nevers,Lyon,FLAT,Alessandro Petacchi,Astana,ITA,Alessandro Petacchi; Richard Virenque; Iban Mayo
+8,2003-07-12,230.5,Lyon,Morzine,MOUNTAIN,Richard Virenque,U.S. Postal Service,FRA,Richard Virenque; Iban Mayo; Alexander Vinokourov
+9,2003-07-13,219.0,Sallanches,Alpe d'Huez,MOUNTAIN,Iban Mayo,ONCE–Eroski,ESP,Iban Mayo; Alexander Vinokourov; Jakob Piil
+10,2003-07-14,184.5,Le Bourg-d'Oisans,Gap,MOUNTAIN,Alexander Vinokourov,U.S. Postal Service,KAZ,Alexander Vinokourov; Jakob Piil; Juan Antonio Flecha
+11,2003-07-15,219.5,Gap,Marseille,FLAT,Jakob Piil,Astana,DEN,Jakob Piil; Juan Antonio Flecha; Jan Ullrich
+12,2003-07-17,153.5,Narbonne,Toulouse,FLAT,Juan Antonio Flecha,Movistar,ESP,Juan Antonio Flecha; Jan Ullrich; Carlos Sastre
+13,2003-07-18,47.0,Gaillac,Cap Découverte,TIME_TRIAL,Jan Ullrich,TotalEnergies,GER,Jan Ullrich; Carlos Sastre; Gilberto Simoni
+14,2003-07-19,197.5,Toulouse,Ax 3 Domaines,MOUNTAIN,Carlos Sastre,Movistar,ESP,Carlos Sastre; Gilberto Simoni; Lance Armstrong
+15,2003-07-20,191.5,Saint-Girons,Loudenvielle,MOUNTAIN,Gilberto Simoni,Agritubel,ITA,Gilberto Simoni; Lance Armstrong; Tyler Hamilton
+16,2003-07-21,159.5,Bagnères-de-Bigorre,Luz Ardiden,MOUNTAIN,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Tyler Hamilton; Servais Knaven
+17,2003-07-23,197.5,Pau,Bayonne,MOUNTAIN,Tyler Hamilton,T-Mobile,USA,Tyler Hamilton; Servais Knaven; Pablo Lastras
+18,2003-07-24,181.0,Dax,Bordeaux,FLAT,Servais Knaven,BMC Racing Team,NED,Servais Knaven; Pablo Lastras; David Millar
+19,2003-07-25,203.5,Bordeaux,Saint-Maixent-l'École,FLAT,Pablo Lastras,Movistar,ESP,Pablo Lastras; David Millar; Jean-Patrick Nazon
+20,2003-07-26,49.0,Pornic,Nantes,TIME_TRIAL,David Millar,T-Mobile,GBR,David Millar; Jean-Patrick Nazon; Lance Armstrong
+21,2003-07-27,152.0,Ville-d'Avray,Paris,FLAT,Jean-Patrick Nazon,Tinkoff,FRA,Jean-Patrick Nazon; Lance Armstrong; Rubens Bertogliati
+1,2002-07-06,7.0,Luxembourg City,Luxembourg City,TIME_TRIAL,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Rubens Bertogliati; Óscar Freire
+2,2002-07-07,192.5,Luxembourg City,Luxembourg City,FLAT,Rubens Bertogliati,Saxo,SUI,Rubens Bertogliati; Óscar Freire; Robbie McEwen
+3,2002-07-08,181.0,Luxembourg City,Saarbrücken,FLAT,Óscar Freire,Movistar,ESP,Óscar Freire; Robbie McEwen; Abraham Olano
+4,2002-07-09,174.5,Metz,Reims,FLAT,Robbie McEwen,Saxo,AUS,Robbie McEwen; Abraham Olano; Jaan Kirsipuu
+5,2002-07-10,67.5,Épernay,Château-Thierry,TIME_TRIAL,Abraham Olano,ONCE–Eroski,ESP,Abraham Olano; Jaan Kirsipuu; Erik Zabel
+6,2002-07-11,195.0,Soissons,Rouen,FLAT,Jaan Kirsipuu,Saxo,EST,Jaan Kirsipuu; Erik Zabel; Bradley McGee
+7,2002-07-12,199.5,Forges-les-Eaux,Alençon,FLAT,Erik Zabel,Movistar,GER,Erik Zabel; Bradley McGee; Karsten Kroon
+8,2002-07-13,176.0,Bagnoles-de-l'Orne,Avranches,FLAT,Bradley McGee,BMC Racing Team,AUS,Bradley McGee; Karsten Kroon; Santiago Botero
+9,2002-07-14,217.5,Saint-Martin-de-Landelles,Plouay,FLAT,Karsten Kroon,Tinkoff,NED,Karsten Kroon; Santiago Botero; Patrice Halgand
+10,2002-07-15,52.0,Lanester,Lorient,TIME_TRIAL,Santiago Botero,Movistar,COL,Santiago Botero; Patrice Halgand; Lance Armstrong
+11,2002-07-17,147.0,Bazas,Pau,FLAT,Patrice Halgand,Saxo,FRA,Patrice Halgand; Lance Armstrong; David Millar
+12,2002-07-18,158.0,Pau,La Mongie,MOUNTAIN,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Richard Virenque; David Millar
+13,2002-07-19,199.5,Lannemezan,Plateau de Beille,MOUNTAIN,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; David Millar; Richard Virenque
+14,2002-07-20,171.0,Lavelanet,Béziers,FLAT,David Millar,T-Mobile,GBR,David Millar; Richard Virenque; Santiago Botero
+15,2002-07-21,221.0,Lodève,Mont Ventoux,MOUNTAIN,Richard Virenque,TotalEnergies,FRA,Richard Virenque; Santiago Botero; Michael Boogerd
+16,2002-07-23,226.5,Vaison-la-Romaine,Les Deux Alpes,FLAT,Santiago Botero,Movistar,COL,Santiago Botero; Michael Boogerd; Dario Frigo
+17,2002-07-24,179.5,Les Deux Alpes,La Plagne,MOUNTAIN,Michael Boogerd,Tinkoff,NED,Michael Boogerd; Dario Frigo; Thor Hushovd
+18,2002-07-25,142.0,Aime,Cluses,MOUNTAIN,Dario Frigo,Astana,ITA,Dario Frigo; Thor Hushovd; Lance Armstrong
+19,2002-07-26,176.5,Cluses,Bourg-en-Bresse,FLAT,Thor Hushovd,BMC Racing Team,NOR,Thor Hushovd; Lance Armstrong; Robbie McEwen
+20,2002-07-27,50.0,Régnié-Durette,Mâcon,TIME_TRIAL,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Robbie McEwen; Christophe Moreau
+21,2002-07-28,144.0,Melun,Paris,FLAT,Robbie McEwen,Saxo,AUS,Robbie McEwen; Christophe Moreau; Erik Zabel
+1,2001-07-07,8.2,Dunkirk,Dunkirk,TIME_TRIAL,Christophe Moreau,Saxo,FRA,Christophe Moreau; Erik Zabel; Marc Wauters
+2,2001-07-08,194.5,Saint-Omer,Boulogne-sur-Mer,FLAT,Erik Zabel,Movistar,GER,Erik Zabel; Marc Wauters; Christophe Moreau
+3,2001-07-09,220.5,Calais,Antwerp,FLAT,Marc Wauters,TotalEnergies,BEL,Marc Wauters; Erik Zabel; Laurent Jalabert
+4,2001-07-10,198.5,Antwerp,Seraing,FLAT,Erik Zabel,Movistar,GER,Erik Zabel; Laurent Jalabert; Sébastien Hinault
+5,2001-07-11,215.0,Huy,Verdun,FLAT,Laurent Jalabert,TotalEnergies,FRA,Laurent Jalabert; Sébastien Hinault; Jaan Kirsipuu
+6,2001-07-12,67.0,Verdun,Bar-le-Duc,TIME_TRIAL,Sébastien Hinault,Crédit Agricole,FRA,Sébastien Hinault; Jaan Kirsipuu; Laurent Jalabert
+7,2001-07-13,211.5,Commercy,Strasbourg,FLAT,Jaan Kirsipuu,Saxo,EST,Jaan Kirsipuu; Laurent Jalabert; Erik Dekker
+8,2001-07-14,162.5,Strasbourg,Colmar,FLAT,Laurent Jalabert,TotalEnergies,FRA,Laurent Jalabert; Erik Dekker; Serguei Ivanov
+9,2001-07-15,222.5,Colmar,Pontarlier,FLAT,Erik Dekker,Astana,NED,Erik Dekker; Serguei Ivanov; Lance Armstrong
+10,2001-07-16,185.0,Pontarlier,Aix-les-Bains,FLAT,Serguei Ivanov,Astana,RUS,Serguei Ivanov; Lance Armstrong; Erik Dekker
+11,2001-07-17,209.0,Aix-les-Bains,Alpe d'Huez,MOUNTAIN,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Erik Dekker; Félix Cárdenas
+12,2001-07-18,32.0,Grenoble,Chamrousse,TIME_TRIAL,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Félix Cárdenas; Roberto Laiseka
+13,2001-07-20,166.5,Perpignan,Plateau de Bonascre,MOUNTAIN,Félix Cárdenas,Movistar,COL,Félix Cárdenas; Lance Armstrong; Roberto Laiseka
+14,2001-07-21,194.0,Foix,Saint-Lary-Soulan Pla d'Adet,MOUNTAIN,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Roberto Laiseka; Rik Verbrugghe
+15,2001-07-22,141.5,Tarbes,Luz Ardiden,MOUNTAIN,Roberto Laiseka,Astana,ESP,Roberto Laiseka; Rik Verbrugghe; Jens Voigt
+16,2001-07-24,232.5,Pau,Lavaur,FLAT,Rik Verbrugghe,Tinkoff,BEL,Rik Verbrugghe; Jens Voigt; Serge Baguet
+17,2001-07-25,229.5,Castelsarrasin,Sarran,FLAT,Jens Voigt,Saxo,GER,Jens Voigt; Serge Baguet; Lance Armstrong
+18,2001-07-26,194.0,Brive-la-Gaillarde,Montluçon,FLAT,Serge Baguet,TotalEnergies,BEL,Serge Baguet; Lance Armstrong; Erik Zabel
+19,2001-07-27,61.0,Montluçon,Saint-Amand-Montrond,TIME_TRIAL,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Erik Zabel; Ján Svorada
+20,2001-07-28,149.5,Orléans,Évry,FLAT,Erik Zabel,Movistar,GER,Erik Zabel; Ján Svorada; David Millar
+21,2001-07-29,160.5,Corbeil-Essonnes,Paris,FLAT,Ján Svorada,Tinkoff,CZE,Ján Svorada; David Millar; Tom Steels
+1,2000-07-01,16.5,Futuroscope,Futuroscope,TIME_TRIAL,David Millar,T-Mobile,GBR,David Millar; Tom Steels; Abraham Olano
+2,2000-07-02,194.0,Futuroscope,Loudun,FLAT,Tom Steels,BMC Racing Team,BEL,Tom Steels; Marcel Wüst; Abraham Olano
+3,2000-07-03,161.5,Loudun,Nantes,FLAT,Tom Steels,BMC Racing Team,BEL,Tom Steels; Abraham Olano; Marcel Wüst
+4,2000-07-04,70.0,Nantes,Saint-Nazaire,TIME_TRIAL,Abraham Olano,ONCE–Deutsche Bank,ESP,Abraham Olano; Marcel Wüst; Leon van Bon
+5,2000-07-05,202.0,Vannes,Vitré,FLAT,Marcel Wüst,Tinkoff,GER,Marcel Wüst; Leon van Bon; Christophe Agnolutto
+6,2000-07-06,198.5,Vitré,Tours,FLAT,Leon van Bon,Tinkoff,NED,Leon van Bon; Christophe Agnolutto; Erik Dekker
+7,2000-07-07,205.5,Tours,Limoges,FLAT,Christophe Agnolutto,Astana,FRA,Christophe Agnolutto; Erik Dekker; Paolo Bettini
+8,2000-07-08,203.5,Limoges,Villeneuve-sur-Lot,FLAT,Erik Dekker,Astana,NED,Erik Dekker; Paolo Bettini; Javier Otxoa
+9,2000-07-09,181.0,Agen,Dax,FLAT,Paolo Bettini,T-Mobile,ITA,Paolo Bettini; Javier Otxoa; Erik Dekker
+10,2000-07-10,205.0,Dax,Hautacam,MOUNTAIN,Javier Otxoa,ONCE–Deutsche Bank,ESP,Javier Otxoa; Erik Dekker; Marco Pantani
+11,2000-07-11,218.5,Bagnères-de-Bigorre,Revel,FLAT,Erik Dekker,Astana,NED,Erik Dekker; Marco Pantani; José Vicente Garcia
+12,2000-07-13,149.0,Carpentras,Mont Ventoux,MOUNTAIN,Marco Pantani,ONCE–Deutsche Bank,ITA,Marco Pantani; José Vicente Garcia; Santiago Botero
+13,2000-07-14,185.5,Avignon,Draguignan,FLAT,José Vicente Garcia,ONCE–Deutsche Bank,ESP,José Vicente Garcia; Santiago Botero; Marco Pantani
+14,2000-07-15,249.5,Draguignan,Briançon,MOUNTAIN,Santiago Botero,Movistar,COL,Santiago Botero; Marco Pantani; Richard Virenque
+15,2000-07-16,173.5,Briançon,Courchevel,MOUNTAIN,Marco Pantani,ONCE–Deutsche Bank,ITA,Marco Pantani; Richard Virenque; Erik Dekker
+16,2000-07-18,196.5,Courchevel,Morzine,MOUNTAIN,Richard Virenque,U.S. Postal Service,FRA,Richard Virenque; Erik Dekker; Salvatore Commesso
+17,2000-07-19,155.0,Évian-les-Bains,Lausanne,FLAT,Erik Dekker,Astana,NED,Erik Dekker; Salvatore Commesso; Lance Armstrong
+18,2000-07-20,246.5,Lausanne,Freiburg,FLAT,Salvatore Commesso,Crédit Agricole,ITA,Salvatore Commesso; Lance Armstrong; Erik Zabel
+19,2000-07-21,58.5,Freiburg,Mulhouse,TIME_TRIAL,Lance Armstrong,U.S. Postal Service,USA,Lance Armstrong; Erik Zabel; Stefano Zanini
+20,2000-07-22,254.5,Belfort,Troyes,FLAT,Erik Zabel,Movistar,GER,Erik Zabel; Stefano Zanini; Erik Dekker
+21,2000-07-23,138.0,Paris,Paris,FLAT,Stefano Zanini,Mapei-GB,ITA,Stefano Zanini; Salvatore Commesso; Lance Armstrong
